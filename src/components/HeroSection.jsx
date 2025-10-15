@@ -16,7 +16,7 @@ const HeroSection = () => {
       <div className="relative z-10 text-left px-6 md:px-12">
         <h1 className="text-4xl md:text-6xl font-bold text-gray-900 leading-tight mb-6">
           You Demand <br />
-          <span className="text-green-600">We Distribute</span>
+          <span className="text-[#21297f]">We Distribute</span>
         </h1>
 
         <p className="text-gray-700 max-w-2xl mx-auto mb-8">
@@ -25,7 +25,7 @@ const HeroSection = () => {
           tempus velit ullamcorper id. Quisque at erat eu.
         </p>
 
-        <button className="bg-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition duration-300">
+        <button className="bg-[#00DAF0] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#0bc3d8] transition duration-300">
           Read More
         </button>
       </div>

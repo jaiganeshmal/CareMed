@@ -24,11 +24,11 @@ const departments = [
 
 const MedicalDepartments = () => {
   return (
-    <section className="w-full py-20 bg-[#21297f] text-white relative">
+    <section className="w-full py-10 bg-[#21297f] text-white relative">
       <div className="container mx-auto px-6">
         {/* 🔹 Heading with top green bar above text */}
-        <div className="mb-12 relative inline-block">
-          <div className="absolute top-0 left-0 w-1/4 rounded-full h-1 bg-[#20D34A] -translate-y-3"></div>
+        <div className="mb-6 relative inline-block">
+          <div className="absolute top-0 left-0 w-1/4 rounded-full h-1 bg-[#00DAF0] -translate-y-3"></div>
           <h2 className="text-3xl md:text-4xl font-bold text-white text-left relative z-10">
             Our Surgical Departments
           </h2>
@@ -66,7 +66,7 @@ const MedicalDepartments = () => {
               consequat semper sollicitudin. Aliquam nec dapibus massa.
               Pellentesque in luctus ex.
             </p>
-            <button className="bg-white text-[#21297f] font-semibold px-8 py-3 rounded-sm border-b-4 border-[#20D34A] hover:bg-gray-200 transition duration-300 w-fit">
+            <button className="bg-white text-[#21297f] font-semibold px-8 py-3 rounded-sm border-b-4 border-[#00DAF0] hover:bg-gray-200 transition duration-300 w-fit">
               READ MORE
             </button>
           </div>

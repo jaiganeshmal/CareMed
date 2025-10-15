@@ -26,13 +26,13 @@ const FaqAndAppointment = () => {
   };
 
   return (
-    <section className="w-full py-24 bg-[#f8fafc]">
+    <section className="w-full py-10 bg-[#f8fafc]">
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
         {/* 🔹 LEFT: FAQ SECTION */}
         <div>
           <h2 className="text-3xl md:text-4xl font-bold mb-10 text-[#21297f] relative inline-block">
             Have Some Questions?
-            <span className="absolute -top-3 left-0 w-1/2 h-[3px] bg-gradient-to-r from-[#20D34A] to-transparent rounded-full"></span>
+            <span className="absolute -top-3 left-0 w-1/2 h-[3px] bg-[#00DAF0] rounded-full"></span>
           </h2>
 
           <div className="space-y-5">
@@ -46,7 +46,7 @@ const FaqAndAppointment = () => {
                   }`}
                 >
                   <button
-                    className="w-full flex justify-between items-center p-5 text-left font-medium text-[#21297f] hover:text-[#20D34A] transition"
+                    className="w-full flex justify-between items-center p-5 text-left font-medium text-[#21297f] hover:text-[#00DAF0] transition"
                     onClick={() => toggleFAQ(index)}
                   >
                     <span>{faq.question}</span>
@@ -80,31 +80,31 @@ const FaqAndAppointment = () => {
           {/* Decorative green circle glow */}
           <div className="absolute -top-16 -right-16 w-40 h-40 bg-[#20D34A]/30 rounded-full blur-3xl"></div>
 
-          <h2 className="text-3xl font-bold mb-6 relative z-10">
+          <h2 className="text-3xl font-bold mb-3 relative z-10">
             Make An Appointment
           </h2>
 
-          <form className="space-y-5 relative z-10">
+          <form className="space-y-4 relative z-10">
             <input
               type="text"
               placeholder="Your Name"
-              className="w-full p-4 rounded-md border border-white/20 bg-transparent text-white placeholder-gray-300 focus:outline-none focus:border-[#20D34A] transition"
+              className="w-full p-4 rounded-md border border-white/20 bg-transparent text-white placeholder-gray-300 focus:outline-none focus:border-[#00DAF0] transition"
             />
             <input
               type="email"
               placeholder="Your Email"
-              className="w-full p-4 rounded-md border border-white/20 bg-transparent text-white placeholder-gray-300 focus:outline-none focus:border-[#20D34A] transition"
+              className="w-full p-4 rounded-md border border-white/20 bg-transparent text-white placeholder-gray-300 focus:outline-none focus:border-[#00DAF0] transition"
             />
             <textarea
               rows="4"
               placeholder="Your Message"
-              className="w-full p-4 rounded-md border border-white/20 bg-transparent text-white placeholder-gray-300 focus:outline-none focus:border-[#20D34A] transition resize-none"
+              className="w-full p-4 rounded-md border border-white/20 bg-transparent text-white placeholder-gray-300 focus:outline-none focus:border-[#00DAF0] transition resize-none"
             ></textarea>
 
             {/* Fancy animated button */}
             <button
               type="submit"
-              className="relative overflow-hidden px-10 py-3 font-semibold rounded-md transition-all duration-500 group bg-[#20D34A]"
+              className="relative overflow-hidden px-10 py-3 font-semibold rounded-md transition-all duration-500 group bg-[#00DAF0]"
             >
               <span className="relative z-10 text-white group-hover:text-[#21297f] transition-colors duration-300">
                 SUBMIT

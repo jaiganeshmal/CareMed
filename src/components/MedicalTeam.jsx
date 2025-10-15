@@ -26,11 +26,11 @@ const doctors = [
 
 const MedicalTeam = () => {
   return (
-    <section className="py-20 px-6 bg-[#f9fafc]">
+    <section className="py-10 px-6 bg-[#f9fafc]">
       <div className="max-w-6xl mx-auto">
         {/* 🔹 Section Heading (Left border style) */}
-        <h2 className="text-3xl md:text-4xl font-bold text-[#212121] mb-14 relative">
-          <span className="border-l-4 border-[#20D34A] pl-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-[#212121] mb-8 relative">
+          <span className="border-l-4 border-[#00DAF0] pl-4">
             Meet Our Medical Team
           </span>
         </h2>
@@ -53,12 +53,12 @@ const MedicalTeam = () => {
               </div>
 
               {/* Doctor Info */}
-              <div className="p-6 text-center">
-                <h3 className="text-lg font-semibold text-[#212121] mb-1 group-hover:text-[#20D34A] transition-colors duration-300">
+              <div className="p-4 text-center">
+                <h3 className="text-lg font-semibold text-[#212121] mb-1 group-hover:text-[#00DAF0] transition-colors duration-300">
                   {doctor.name}
                 </h3>
                 <p className="text-gray-500 mb-3">{doctor.role}</p>
-                <div className="w-10 h-[3px] bg-[#20D34A] mx-auto rounded-full group-hover:w-16 transition-all duration-500"></div>
+                <div className="w-10 h-[3px] bg-[#00DAF0] mx-auto rounded-full group-hover:w-16 transition-all duration-500"></div>
               </div>
             </div>
           ))}

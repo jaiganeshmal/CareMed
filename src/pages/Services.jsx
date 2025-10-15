@@ -1,8 +1,19 @@
 import React from 'react'
+import ServiceHero from '../components/ServiceHero'
+import FeaturedServices from '../components/FeaturedServices'
+import ServiceGrid from '../components/ServiceGrid'
+import ExpertTeamSection from '../components/ExpertTeamSection'
+import HealthPlanBanner from '../components/HealthPlanBanner'
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <>
+      <ServiceHero />
+      <FeaturedServices />
+      <ServiceGrid />
+      <ExpertTeamSection />
+      <HealthPlanBanner />
+    </>
   )
 }
 

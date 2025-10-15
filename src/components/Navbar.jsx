@@ -41,34 +41,34 @@ const Navbar = () => {
           {/* Desktop Menu */}
           <ul className="hidden md:flex gap-8 text-gray-700 font-medium">
             <li>
-              <Link to="/" className="hover:text-green-600 transition">
+              <Link to="/" className="hover:text-[#00DAF0] transition">
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/about" className="hover:text-green-600 transition">
+              <Link to="/about" className="hover:text-[#00DAF0] transition">
                 About us
               </Link>
             </li>
             <li>
-              <Link to="/services" className="hover:text-green-600 transition">
+              <Link to="/services" className="hover:text-[#00DAF0] transition">
                 Services
               </Link>
             </li>
             <li>
-              <Link to="/products" className="hover:text-green-600 transition">
+              <Link to="/products" className="hover:text-[#00DAF0] transition">
                 Products
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="hover:text-green-600 transition">
+              <Link to="/contact" className="hover:text-[#00DAF0] transition">
                 Contact
               </Link>
             </li>
           </ul>
 
           {/* Emergency Button */}
-          <button className="hidden md:flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition">
+          <button className="hidden md:flex items-center gap-2 bg-[#00DAF0] text-white px-4 py-2 rounded-lg hover:bg-[#0bc3d8] transition">
             <FaPhoneAlt className="text-sm" />
             <span>+92 51 5707299</span>
           </button>
@@ -86,27 +86,27 @@ const Navbar = () => {
         {menuOpen && (
           <ul className="md:hidden bg-gray-100 py-4 px-6 flex flex-col gap-4 font-medium text-gray-700">
             <li>
-              <Link to="/" onClick={() => setMenuOpen(false)} className="hover:text-green-600">
+              <Link to="/" onClick={() => setMenuOpen(false)} className="hover:text-[#00DAF0]">
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/about" onClick={() => setMenuOpen(false)} className="hover:text-green-600">
+              <Link to="/about" onClick={() => setMenuOpen(false)} className="hover:text-[#00DAF0]">
                 About us
               </Link>
             </li>
             <li>
-              <Link to="/services" onClick={() => setMenuOpen(false)} className="hover:text-green-600">
+              <Link to="/services" onClick={() => setMenuOpen(false)} className="hover:text-[#00DAF0]">
                 Services
               </Link>
             </li>
             <li>
-              <Link to="/news" onClick={() => setMenuOpen(false)} className="hover:text-green-600">
+              <Link to="/news" onClick={() => setMenuOpen(false)} className="hover:text-[#00DAF0]">
                 News
               </Link>
             </li>
             <li>
-              <Link to="/contact" onClick={() => setMenuOpen(false)} className="hover:text-green-600">
+              <Link to="/contact" onClick={() => setMenuOpen(false)} className="hover:text-[#00DAF0] ">
                 Contact
               </Link>
             </li>

@@ -5,7 +5,7 @@ import { assets } from "../assets/global";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#060B3A] text-white pt-16 pb-8 relative">
+    <footer className="bg-[#060B3A] text-white pt-10 pb-8 relative">
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         
         {/* 🔹 Column 1 - Logo & About */}
@@ -23,25 +23,25 @@ const Footer = () => {
           <div className="flex space-x-4">
             <a
               href="#"
-              className="w-9 h-9 rounded-full flex items-center justify-center bg-white/10 hover:bg-[#20D34A] transition-all duration-300"
+              className="w-9 h-9 rounded-full flex items-center justify-center bg-white/10 hover:bg-[#00DAF0] transition-all duration-300"
             >
               <FaFacebookF />
             </a>
             <a
               href="#"
-              className="w-9 h-9 rounded-full flex items-center justify-center bg-white/10 hover:bg-[#20D34A] transition-all duration-300"
+              className="w-9 h-9 rounded-full flex items-center justify-center bg-white/10 hover:bg-[#00DAF0] transition-all duration-300"
             >
               <FaTwitter />
             </a>
             <a
               href="#"
-              className="w-9 h-9 rounded-full flex items-center justify-center bg-white/10 hover:bg-[#20D34A] transition-all duration-300"
+              className="w-9 h-9 rounded-full flex items-center justify-center bg-white/10 hover:bg-[#00DAF0] transition-all duration-300"
             >
               <FaLinkedinIn />
             </a>
             <a
               href="#"
-              className="w-9 h-9 rounded-full flex items-center justify-center bg-white/10 hover:bg-[#20D34A] transition-all duration-300"
+              className="w-9 h-9 rounded-full flex items-center justify-center bg-white/10 hover:bg-[#00DAF0] transition-all duration-300"
             >
               <FaInstagram />
             </a>
@@ -52,31 +52,31 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold mb-4 relative inline-block">
             <span>Quick Links</span>
-            <div className="absolute top-0 left-0 w-1/2 h-1 bg-[#20D34A] -translate-y-3"></div>
+            <div className="absolute top-0 left-0 w-1/2 h-1 bg-[#00DAF0] -translate-y-3"></div>
           </h3>
           <ul className="space-y-2 text-gray-300">
             <li>
-              <Link to="/" className="hover:text-[#20D34A] transition">
+              <Link to="/" className="hover:text-[#00DAF0] transition">
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/about" className="hover:text-[#20D34A] transition">
+              <Link to="/about" className="hover:text-[#00DAF0] transition">
                 About
               </Link>
             </li>
             <li>
-              <Link to="/services" className="hover:text-[#20D34A] transition">
+              <Link to="/services" className="hover:text-[#00DAF0] transition">
                 Services
               </Link>
             </li>
             <li>
-              <Link to="/products" className="hover:text-[#20D34A] transition">
+              <Link to="/products" className="hover:text-[#00DAF0] transition">
                 Products
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="hover:text-[#20D34A] transition">
+              <Link to="/contact" className="hover:text-[#00DAF0] transition">
                 Contact us
               </Link>
             </li>
@@ -87,31 +87,31 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold mb-4 relative inline-block">
             <span>Our Services</span>
-            <div className="absolute top-0 left-0 w-1/2 h-1 bg-[#20D34A] -translate-y-3"></div>
+            <div className="absolute top-0 left-0 w-1/2 h-1 bg-[#00DAF0] -translate-y-3"></div>
           </h3>
           <ul className="space-y-2 text-gray-300">
             <li>
-              <Link to="/products/woundclosure" className="hover:text-[#20D34A] transition">
+              <Link to="/products/woundclosure" className="hover:text-[#00DAF0] transition">
                 Wound Closure
               </Link>
             </li>
             <li>
-              <Link to="/products/airmanagment" className="hover:text-[#20D34A] transition">
+              <Link to="/products/airmanagment" className="hover:text-[#00DAF0] transition">
                 Air Managment
               </Link>
             </li>
             <li>
-              <Link to="/products/Hemostasis" className="hover:text-[#20D34A] transition">
+              <Link to="/products/Hemostasis" className="hover:text-[#00DAF0] transition">
                 Hemostasis
               </Link>
             </li>
             <li>
-              <Link to="/products/energyproducts" className="hover:text-[#20D34A] transition">
+              <Link to="/products/energyproducts" className="hover:text-[#00DAF0] transition">
                 Energy Products
               </Link>
             </li>
             <li>
-              <Link to="/products/herniaREPAIRE" className="hover:text-[#20D34A] transition">
+              <Link to="/products/herniaREPAIRE" className="hover:text-[#00DAF0] transition">
                 Hernia Repair
               </Link>
             </li>
@@ -122,7 +122,7 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold mb-4 relative inline-block">
             <span>Contact Us</span>
-            <div className="absolute top-0 left-0 w-1/2 h-1 bg-[#20D34A] -translate-y-3"></div>
+            <div className="absolute top-0 left-0 w-1/2 h-1 bg-[#00DAF0] -translate-y-3"></div>
           </h3>
           <ul className="space-y-3 text-gray-300">
             <li>📍 Apartment 10, Safari Villas 2 Commercial Complex, Bahria Town Phase 7, Rawalpindi</li>

@@ -12,6 +12,11 @@ import doctor2 from "./doctor2.png";
 import doctor3 from "./doctor3.png";
 import doctor4 from "./doctor4.png";
 import healthPlanBg from "./healthPlanBg.jpg";
+import serviceHero from "./serviceHero.jpg";
+import service1 from "./service1.jpg";
+import service2 from "./service2.jpg";
+import service3 from "./service3.jpg";
+import team from "./team.jpg";
 
 export const assets = {
   logo,
@@ -28,4 +33,9 @@ export const assets = {
   doctor3,
   doctor4,
   healthPlanBg,
+  serviceHero,
+  service1,
+  service2,
+  service3,
+  team,
 };

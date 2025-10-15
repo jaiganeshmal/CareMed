@@ -51,11 +51,11 @@ const MedicalSection = () => {
   return (
     <section
       ref={sectionRef}
-      className="max-w-7xl mx-auto py-16 px-6 bg-white flex flex-col lg:flex-row gap-12"
+      className="max-w-7xl mx-auto py-10 px-6 bg-white flex flex-col lg:flex-row gap-12"
     >
       {/* LEFT SIDE */}
       <div className="lg:w-2/3">
-        <h2 className="text-3xl font-bold mb-6 text-gray-900 leading-tight">
+        <h2 className="text-3xl font-bold mb-3 text-gray-900 leading-tight">
           A Great Surgical Team To Help Your Needs
         </h2>
 
@@ -92,7 +92,7 @@ const MedicalSection = () => {
                       cx="48"
                       cy="48"
                       r="42"
-                      stroke="#20D34A"
+                      stroke="#00DAF0"
                       strokeWidth="8"
                       fill="none"
                       strokeDasharray={circumference}
@@ -114,18 +114,18 @@ const MedicalSection = () => {
         {/* Button */}
         <Link
           to="/about"
-          className="inline-block bg-blue-900 text-white px-8 py-3 font-medium mt-10 rounded-md shadow-md hover:bg-green-500 transition-all duration-500 hover:-translate-y-1"
+          className="inline-block bg-[#00DAF0] text-white px-8 py-3 font-medium mt-10 rounded-md shadow-md hover:bg-[#21297f] transition-all duration-500 hover:-translate-y-1"
         >
           READ MORE
         </Link>
       </div>
 
       {/* RIGHT SIDE */}
-      <div className="lg:w-1/3 space-y-6">
+      <div className="lg:w-1/3 space-y-3">
         {/* Working Hours */}
         <div className="bg-blue-900 text-white p-6 rounded-xl shadow-lg">
           <div className="flex items-center mb-3 text-lg">
-            <FaClock className="mr-2 text-green-400 text-xl" />
+            <FaClock className="mr-2 text-[#00DAF0] text-xl" />
             <h3 className="font-semibold">Working Hours</h3>
           </div>
           <ul className="text-sm text-gray-200 space-y-2">
@@ -147,7 +147,7 @@ const MedicalSection = () => {
         {/* Appointments */}
         <div className="bg-blue-900 text-white p-6 rounded-xl shadow-lg">
           <div className="flex items-center mb-3 text-lg">
-            <FaPhoneAlt className="mr-2 text-green-400 text-xl" />
+            <FaPhoneAlt className="mr-2 text-[#00DAF0] text-xl" />
             <h3 className="font-semibold">Appointments</h3>
           </div>
           <p className="text-sm text-gray-200">
@@ -158,10 +158,10 @@ const MedicalSection = () => {
         {/* Emergency Cases */}
         <div className="bg-blue-900 text-white p-6 rounded-xl shadow-lg">
           <div className="flex items-center mb-3 text-lg">
-            <FaAmbulance className="mr-2 text-green-400 text-xl" />
+            <FaAmbulance className="mr-2 text-[#00DAF0] text-xl" />
             <h3 className="font-semibold">Emergency Cases</h3>
           </div>
-          <p className="text-green-400 text-lg font-semibold mb-2">
+          <p className="text-[#00DAF0] text-lg font-semibold mb-2">
             +56 273 45678 235
           </p>
           <p className="text-sm text-gray-200">
