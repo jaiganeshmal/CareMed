@@ -56,6 +56,7 @@ const PatientTestimonials = () => {
                 <img
                   src={item.img}
                   alt={item.name}
+                  loading="lazy"
                   className="w-14 h-14 rounded-full border-2 border-[#00DAF0] shadow-md"
                 />
                 <div>

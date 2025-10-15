@@ -47,6 +47,7 @@ const MedicalTeam = () => {
                 <img
                   src={doctor.img}
                   alt={doctor.name}
+                  loading="lazy"
                   className="w-full h-64 object-contain group-hover:scale-110 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-[#21297f]/0 group-hover:bg-[#21297f]/25 transition-colors duration-500"></div>

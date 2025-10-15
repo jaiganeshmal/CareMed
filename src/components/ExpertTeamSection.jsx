@@ -12,6 +12,7 @@ const ExpertTeamSection = () => {
           <img
             src={assets.team} // ✅ from your global.js
             alt="Medical Team"
+            loading="lazy"
             className="w-full h-full object-cover transform transition-transform duration-700 ease-in-out group-hover:scale-105"
           />
         </div>

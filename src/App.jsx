@@ -2,7 +2,7 @@ import React, { Suspense, lazy } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Loader from "./components/Loader"; // ✅ Your gradient loader
+import Loader from "./components/Loader"; 
 
 // 🔹 Lazy-loaded Pages
 const Home = lazy(() => import("./pages/Home"));

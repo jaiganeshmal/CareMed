@@ -34,6 +34,7 @@ const MedicalTeamSection = () => {
           <img
             src={assets.doctorTeam}
             alt="Medical Team"
+            loading="lazy"
             className="w-full max-w-md object-contain"
           />
         </div>

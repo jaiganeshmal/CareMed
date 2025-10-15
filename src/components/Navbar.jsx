@@ -35,6 +35,7 @@ const Navbar = () => {
             <img
               src={assets.logo}
               alt="CareMed Logo"
+              loading="lazy"
               className="h-16 w-auto object-contain"
             />
           </Link>

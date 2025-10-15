@@ -14,6 +14,7 @@ const Footer = () => {
             src={assets.logo}
             alt="Company Logo"
             className="w-36 mb-4"
+            loading="lazy"
           />
           <p className="text-sm text-gray-300 mb-6">
             Dedicated to providing top-quality healthcare with compassion and expertise.

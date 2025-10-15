@@ -37,6 +37,7 @@ const ServiceGrid = () => {
                 <img
                   src={service.img}
                   alt={service.title}
+                  loading="lazy"
                   className="w-full h-64 object-cover transform transition-transform duration-500 hover:scale-110"
                 />
               </div>

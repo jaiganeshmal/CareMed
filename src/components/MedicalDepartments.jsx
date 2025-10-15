@@ -46,6 +46,7 @@ const MedicalDepartments = () => {
                 <img
                   src={dept.image}
                   alt={dept.title}
+                  loading="lazy"
                   className="w-full h-56 object-cover"
                 />
                 <div className="p-6 text-center">
