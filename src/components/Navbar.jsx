@@ -6,16 +6,17 @@ import { assets } from "../assets/global"; // ✅ Import assets
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  
   return (
     <header className="w-full shadow-md">
       {/* 🔹 Top Bar */}
       <div className="bg-[#283290] text-gray-200 text-sm py-2">
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex gap-6">
-            <Link to="/faq" className="hover:text-green-400 transition">
+            <Link to="/" className="hover:text-green-400 transition">
               FAQ
             </Link>
-            <Link to="/appointment" className="hover:text-green-400 transition">
+            <Link to="/" className="hover:text-green-400 transition">
               Request an Appointment
             </Link>
           </div>

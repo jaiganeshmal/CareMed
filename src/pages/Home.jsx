@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import HeroSection from "../components/HeroSection";
 import InfoCards from "../components/InfoCards";
 import MedicalTeamSection from "../components/MedicalTeamSection";
@@ -8,6 +8,13 @@ import HealthPlanBanner from "../components/HealthPlanBanner";
 import FaqAndAppointment from "../components/FaqAndAppointment";
 
 const Home = () => {
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }, [])
   return (
     <>
       <HeroSection />

@@ -91,27 +91,27 @@ const Footer = () => {
           </h3>
           <ul className="space-y-2 text-gray-300">
             <li>
-              <Link to="/products/woundclosure" className="hover:text-[#00DAF0] transition">
+              <Link to="/" className="hover:text-[#00DAF0] transition">
                 Wound Closure
               </Link>
             </li>
             <li>
-              <Link to="/products/airmanagment" className="hover:text-[#00DAF0] transition">
+              <Link to="/" className="hover:text-[#00DAF0] transition">
                 Air Managment
               </Link>
             </li>
             <li>
-              <Link to="/products/Hemostasis" className="hover:text-[#00DAF0] transition">
+              <Link to="/" className="hover:text-[#00DAF0] transition">
                 Hemostasis
               </Link>
             </li>
             <li>
-              <Link to="/products/energyproducts" className="hover:text-[#00DAF0] transition">
+              <Link to="/" className="hover:text-[#00DAF0] transition">
                 Energy Products
               </Link>
             </li>
             <li>
-              <Link to="/products/herniaREPAIRE" className="hover:text-[#00DAF0] transition">
+              <Link to="/" className="hover:text-[#00DAF0] transition">
                 Hernia Repair
               </Link>
             </li>
