@@ -7,6 +7,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Products from "./pages/Products";
+import PageNotFound from "./components/PageNotFound";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/products" element={<Products />} />
           <Route path="/contact" element={<Contact />} />
+
+
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
         <Footer />
       </div>
