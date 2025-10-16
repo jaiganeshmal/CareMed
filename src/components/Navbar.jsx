@@ -103,8 +103,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="/news" onClick={() => setMenuOpen(false)} className="hover:text-[#00DAF0]">
-                News
+              <Link to="/products" onClick={() => setMenuOpen(false)} className="hover:text-[#00DAF0]">
+                Products
               </Link>
             </li>
             <li>
