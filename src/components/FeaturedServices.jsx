@@ -66,7 +66,7 @@ const FeaturedServices = () => {
               key={service.id}
               className="group bg-[#f9f9f9] rounded-xl shadow-md p-8 transition-all duration-300 hover:-translate-y-2 hover:bg-[#283290] flex flex-col items-center border-b-4 border-transparent hover:border-[#00DAF0]"
             >
-              <div className="text-[#00DAF0] mb-4 transition-colors duration-300 group-hover:text-[#20D34A]">
+              <div className="text-[#00DAF0] mb-4 transition-colors duration-300 group-hover:text-white">
                 {service.icon}
               </div>
               <h3 className="text-xl font-bold mb-2 text-[#21297f] transition-colors duration-300 group-hover:text-white">
