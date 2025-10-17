@@ -107,30 +107,33 @@ const Products = () => {
           name: "Closed Suction System",
           description: "not linked",
           image: 'https://i.pinimg.com/1200x/3e/01/76/3e0176103e52e8c8eccfa00e6680f68c.jpg',
-          products: [
-            { title: "Explorer Probe", pdf: "/pdfs/probe.pdf" },
-            { title: "Mouth Mirror", pdf: "/pdfs/mirror.pdf" },
-          ],
+          pdf: 'https://anwarsons.com/wp-content/uploads/2021/03/Closed-Suction-System.pdf'
+          // products: [
+          //   { title: "Explorer Probe", pdf: "/pdfs/probe.pdf" },
+          //   { title: "Mouth Mirror", pdf: "/pdfs/mirror.pdf" },
+          // ],
         },
         {
           id: 5,
           name: "HiCapno",
           description: "not linked.",
           image: 'https://i.pinimg.com/736x/47/08/b3/4708b336d87226b859703efbd19f466a.jpg',
-          products: [
-            { title: "Explorer Probe", pdf: "/pdfs/probe.pdf" },
-            { title: "Mouth Mirror", pdf: "/pdfs/mirror.pdf" },
-          ],
+          pdf: 'https://anwarsons.com/wp-content/uploads/2021/03/HiCapno.pdf'
+          // products: [
+          //   { title: "Explorer Probe", pdf: "/pdfs/probe.pdf" },
+          //   { title: "Mouth Mirror", pdf: "/pdfs/mirror.pdf" },
+          // ],
         },
         {
           id: 6,
           name: "Silicone laryngeal mask",
           description: "not linked",
           image: 'https://i.pinimg.com/1200x/20/ad/40/20ad4015250eaaf12ee9498ca68bcf0a.jpg',
-          products: [
-            { title: "Explorer Probe", pdf: "/pdfs/probe.pdf" },
-            { title: "Mouth Mirror", pdf: "/pdfs/mirror.pdf" },
-          ],
+          pdf: 'https://anwarsons.com/wp-content/uploads/2021/03/Silicone-laryngeal-mask.pdf'
+          // products: [
+          //   { title: "Explorer Probe", pdf: "/pdfs/probe.pdf" },
+          //   { title: "Mouth Mirror", pdf: "/pdfs/mirror.pdf" },
+          // ],
         },
         {
           id: 7,
@@ -185,10 +188,11 @@ const Products = () => {
           name: "Bone Wax",
           description: "Precision examination tools.",
           image: 'https://i.pinimg.com/1200x/be/5a/6b/be5a6b8a3af2e0df0617cecfc8deda69.jpg',
-          products: [
-            { title: "Explorer Probe", pdf: "/pdfs/probe.pdf" },
-            { title: "Mouth Mirror", pdf: "/pdfs/mirror.pdf" },
-          ],
+          pdf: 'https://www.sutures.be/wp-content/uploads/MM-BW-1.0-EN-BONE-WAX.pdf'
+          // products: [
+          //   { title: "Explorer Probe", pdf: "/pdfs/probe.pdf" },
+          //   { title: "Mouth Mirror", pdf: "/pdfs/mirror.pdf" },
+          // ],
         },
       ],
     },
@@ -203,10 +207,11 @@ const Products = () => {
           name: "Ultrasonic Surgical System",
           description: "Strong and precise bone-cutting tools.",
           image: 'https://i.pinimg.com/736x/29/c4/84/29c4842ccb99beadf99afc8206649fd4.jpg',
-          products: [
-            { title: "Liston Bone Cutter", pdf: "/pdfs/liston.pdf" },
-            { title: "Luer Bone Cutter", pdf: "/pdfs/luer.pdf" },
-          ],
+          pdf: 'https://anwarsons.com/wp-content/uploads/2021/03/catalogue.pdf'
+          // products: [
+          //   { title: "Liston Bone Cutter", pdf: "/pdfs/liston.pdf" },
+          //   { title: "Luer Bone Cutter", pdf: "/pdfs/luer.pdf" },
+          // ],
         },
 
       ],
@@ -222,10 +227,11 @@ const Products = () => {
           name: "Polypropylene Mesh",
           description: "Strong and precise bone-cutting tools.",
           image: 'https://i.pinimg.com/1200x/22/31/52/2231524aace2a5278ed72e5febcea5b2.jpg',
-          products: [
-            { title: "Liston Bone Cutter", pdf: "/pdfs/liston.pdf" },
-            { title: "Luer Bone Cutter", pdf: "/pdfs/luer.pdf" },
-          ],
+          pdf: 'https://www.sutures.be/wp-content/uploads/MM-ZM-V1.0-EN-MESH.pdf'
+          // products: [
+          //   { title: "Liston Bone Cutter", pdf: "/pdfs/liston.pdf" },
+          //   { title: "Luer Bone Cutter", pdf: "/pdfs/luer.pdf" },
+          // ],
         },
 
       ],

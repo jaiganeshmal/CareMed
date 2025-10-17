@@ -1,17 +1,28 @@
 import React from "react";
+import { FaFilePdf } from "react-icons/fa";
 
 const ProductSubCategories = ({ category, onBack, onSelectSub }) => {
+  const handleClick = (sub) => {
+    if (sub.pdf) {
+      // 🟢 Direct PDF open
+      window.open(sub.pdf, "_blank");
+    } else {
+      // 🟣 Go deeper to show its products
+      onSelectSub(sub);
+    }
+  };
+
   return (
-    <section className="py-16 bg-gradient-to-b from-white to-gray-50">
+    <section className="py-16 bg-gradient-to-b from-white to-[#f3f7ff] min-h-screen">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="flex justify-between items-center mb-12 flex-wrap gap-4">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-[#212121]">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-[#21297f]">
             {category.name}
           </h2>
           <button
             onClick={onBack}
-            className="text-[#00BCD4] font-semibold hover:text-[#004D40] transition-all duration-300 text-base"
+            className="text-[#00DAF0] font-semibold hover:text-[#21297f] transition-all duration-300 text-base"
           >
             ← Back to Categories
           </button>
@@ -22,28 +33,31 @@ const ProductSubCategories = ({ category, onBack, onSelectSub }) => {
           {category.subcategories.map((sub) => (
             <div
               key={sub.id}
-              onClick={() => onSelectSub(sub)}
-              className="group bg-white rounded-2xl border border-gray-200 overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 cursor-pointer"
+              onClick={() => handleClick(sub)}
+              className="group bg-white rounded-2xl border border-gray-200 overflow-hidden shadow-md hover:shadow-xl transition-all duration-500 cursor-pointer"
             >
               {/* Image */}
               <div className="relative h-52 w-full overflow-hidden">
                 <img
                   src={
                     sub.image ||
-                    "https://img.freepik.com/free-photo/medical-tools_23-2148165906.jpg" // fallback image
+                    "https://img.freepik.com/free-vector/modern-flat-design-illustration-product-presentation_23-2149142645.jpg"
                   }
                   alt={sub.name}
-                  className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                <div className="absolute bottom-4 left-4 text-white text-lg font-semibold drop-shadow-md">
+
+                {/* Subcategory Name */}
+                <div className="absolute bottom-4 left-4 flex items-center gap-2 text-white text-lg font-semibold drop-shadow-md">
                   {sub.name}
+                  {sub.pdf && <FaFilePdf className="text-red-400 text-xl" />}
                 </div>
               </div>
 
               {/* Info */}
               <div className="p-6 text-center">
-                <h3 className="text-xl font-semibold text-[#004D40] mb-2 group-hover:text-[#00BCD4] transition-colors duration-300">
+                <h3 className="text-xl font-semibold text-[#21297f] mb-2 group-hover:text-[#00DAF0] transition-colors duration-300">
                   {sub.name}
                 </h3>
                 {sub.description && (
@@ -51,10 +65,16 @@ const ProductSubCategories = ({ category, onBack, onSelectSub }) => {
                     {sub.description}
                   </p>
                 )}
+
+                {sub.pdf && (
+                  <p className="mt-3 text-[#00DAF0] text-xs font-medium">
+                    📄 Opens PDF directly
+                  </p>
+                )}
               </div>
 
-              {/* Hover Accent */}
-              <div className="h-[4px] bg-[#00BCD4] w-0 group-hover:w-full transition-all duration-500"></div>
+              {/* Hover Accent Line */}
+              <div className="h-[4px] bg-[#00DAF0] w-0 group-hover:w-full transition-all duration-500"></div>
             </div>
           ))}
         </div>

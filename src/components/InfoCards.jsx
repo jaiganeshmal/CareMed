@@ -7,7 +7,7 @@ const cardsData = [
     title: "Working Hours",
     desc: "Mon - Fri: 8:00 AM - 8:00 PM\nSaturday: 9:00 AM - 6:00 PM\nSunday: Closed",
     icon: <FaClock className="text-4xl text-white mb-3" />,
-    bgColor: "bg-[#1565C0]", // ✅ Deep Green
+    bgColor: "bg-[#1565C0]", // ✅ Deep Blue
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const cardsData = [
     title: "Emergency Cases",
     desc: "For urgent care or emergencies, contact our 24/7 helpline.",
     icon: <FaPhoneAlt className="text-4xl text-white mb-3" />,
-    bgColor: "bg-[#1565C0]", // ✅ Medical Red
+    bgColor: "bg-[#1565C0]", // ✅ Deep Blue
   },
 ];
 
