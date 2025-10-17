@@ -1,8 +1,9 @@
 import logo from "./logo.gif";
-
+import logo2 from "./logo2.png";
 
 export const assets = {
   logo,
+  logo2,
   heroImg: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1760525191/hero-doctor_bv5mpv.jpg',
   doctorTeam: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1760525146/doctor-team_acococ.png',
   dept1: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1760525145/dept1_yi0klu.jpg',

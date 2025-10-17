@@ -11,7 +11,7 @@ const Footer = () => {
         {/* 🔹 Column 1 - Logo & About */}
         <div>
           <img
-            src={assets.logo}
+            src={assets.logo2}
             alt="Company Logo"
             className="w-36 mb-4"
             loading="lazy"
