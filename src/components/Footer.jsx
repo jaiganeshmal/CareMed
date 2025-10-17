@@ -128,7 +128,7 @@ const Footer = () => {
           <ul className="space-y-3 text-gray-300">
             <li>📍 Apartment 10, Safari Villas 2 Commercial Complex, Bahria Town Phase 7, Rawalpindi</li>
             <li>📞 +92 51 5707299</li>
-            <li>✉️ support@medicare.com</li>
+            <li>✉️ info@anwarsons.com</li>
           </ul>
         </div>
       </div>

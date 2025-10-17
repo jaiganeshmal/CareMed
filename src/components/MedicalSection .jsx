@@ -162,7 +162,7 @@ const MedicalSection = () => {
             <h3 className="font-semibold">Emergency Cases</h3>
           </div>
           <p className="text-[#00DAF0] text-lg font-semibold mb-2">
-            +56 273 45678 235
+            +92 51 5707299
           </p>
           <p className="text-sm text-gray-200">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
