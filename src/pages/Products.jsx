@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ProductsHero from "../Components/ProductsHero";
 import { assets } from "../assets/global";
 import ProductCategories from "../components/ProductCategories";
@@ -277,6 +277,13 @@ const Products = () => {
 
   ];
 
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }, [])
 
   return (
     <div className="overflow-hidden">

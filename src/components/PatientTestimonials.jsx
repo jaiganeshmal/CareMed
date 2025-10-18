@@ -4,16 +4,18 @@ import { assets } from "../assets/global";
 
 const testimonials = [
   {
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semper sollicitudin. Aliquam nec dapibus massa. Pellentesque in luctus ex. Praesent luctus erat sit amet tortor.",
-    name: "Claire Smith",
-    role: "Patient",
-    img: "https://randomuser.me/api/portraits/women/68.jpg",
+    text: "Mr. Tahir Khan started his career as Sales Officer with distribution company of healthcare products. In 1986, he decided to establish his own business and formed Anwar& sons. He utilized his skills and knowledge for the growth of the company. He always looks for the best products available in the international market at most cost-effective price.",
+    name: "M. Tahir Khan",
+    role: "Managing Director",
+    // img: "https://randomuser.me/api/portraits/women/68.jpg",
+    img: "https://res.cloudinary.com/dy2ddzcoq/image/upload/v1760771058/Picture-1_niewbx.png",
   },
   {
-    text: "Slor sit amet, consectetur adipiscing elit. Curabitur ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam consequat semper sollicitudin. Aliquam nec dapibus massa. Pellentesque in luctus ex. Praesent luctus erat sit amet tortor aliquam bibendum.",
-    name: "Mick Williams",
-    role: "Patient",
-    img: "https://randomuser.me/api/portraits/men/34.jpg",
+    text: "Mr. Tariq Zaidi assumed his current responsibilities in 2014 as Head of Sales & Marketing. He carries with him 40 years of experience in field of sales & marketing of pharmaceuticals and medical devices. He started his career with Merck Sharp & Dohme as Medical Representative than he moved to Johnson & Johnson. He worked there for Ethicon Division and served the company in various positions for 30, years and finally retired from the position of business unit head.",
+    name: "Tariq Zaidi",
+    role: "Head of Sales & Marketing",
+    // img: "https://randomuser.me/api/portraits/men/34.jpg",
+    img: "https://res.cloudinary.com/dy2ddzcoq/image/upload/v1760771058/Picture-3_iy6xmj.png",
   },
 ];
 
@@ -22,7 +24,7 @@ const PatientTestimonials = () => {
     <section
       className="relative text-white py-10 px-6 bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: `url(${assets.testimonialBg})`, 
+        backgroundImage: `url(${assets.testimonialBg})`,
       }}
     >
 
@@ -30,7 +32,7 @@ const PatientTestimonials = () => {
         {/* 🔹 Heading */}
         <h2 className="text-3xl md:text-4xl font-bold mb-6 relative inline-block text-white">
           <span className="border-l-4 border-[#00DAF0] pl-4">
-            Doctor Testimonials
+            Meet Our Team
           </span>
         </h2>
 
@@ -57,7 +59,7 @@ const PatientTestimonials = () => {
                   src={item.img}
                   alt={item.name}
                   loading="lazy"
-                  className="w-14 h-14 rounded-full border-2 border-[#00DAF0] shadow-md"
+                  className="w-14 h-14 object-cover rounded-full border-2 border-[#00DAF0] shadow-md"
                 />
                 <div>
                   <h4 className="font-semibold text-white text-lg">
