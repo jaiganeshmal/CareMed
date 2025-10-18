@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
-import ProductsHero from "../Components/ProductsHero";
-import { assets } from "../assets/global";
 import ProductCategories from "../components/ProductCategories";
 import ProductSubCategories from "../components/ProductSubCategories";
 import ProductCards from "../components/ProductCards";
+import ProductsHero from "../components/ProductsHero";
 
 const Products = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
