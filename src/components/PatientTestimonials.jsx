@@ -1,6 +1,6 @@
 import React from "react";
 import { FaQuoteLeft } from "react-icons/fa";
-import { assets } from "../assets/global"; // ✅ import your image from assets
+import { assets } from "../assets/global";
 
 const testimonials = [
   {
@@ -22,7 +22,7 @@ const PatientTestimonials = () => {
     <section
       className="relative text-white py-10 px-6 bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: `url(${assets.testimonialBg})`, // ✅ image from global.js
+        backgroundImage: `url(${assets.testimonialBg})`, 
       }}
     >
 

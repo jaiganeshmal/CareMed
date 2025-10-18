@@ -7,7 +7,7 @@ const MedicalTeamSection = () => {
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-10">
         {/* 🔹 Left Content */}
         <div className="md:w-1/2">
-          {/* Green line */}
+          {/* line */}
           <div className="w-16 h-[3px] bg-[#00DAF0] mb-4"></div>
 
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">

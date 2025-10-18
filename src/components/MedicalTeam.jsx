@@ -28,7 +28,7 @@ const MedicalTeam = () => {
   return (
     <section className="py-10 px-6 bg-[#f9fafc]">
       <div className="max-w-6xl mx-auto">
-        {/* 🔹 Section Heading (Left border style) */}
+        {/* 🔹 Section Heading  */}
         <h2 className="text-3xl md:text-4xl font-bold text-[#212121] mb-8 relative">
           <span className="border-l-4 border-[#00DAF0] pl-4">
             Meet Our Medical Team

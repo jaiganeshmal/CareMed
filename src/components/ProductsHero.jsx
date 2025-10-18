@@ -6,7 +6,7 @@ const ProductsHero = () => {
     <section
       className="relative w-full min-h-[80vh] flex items-center bg-cover bg-center bg-no-repeat overflow-hidden"
       style={{
-        backgroundImage: `url(${assets.aboutHero})`, // ✅ from global.js
+        backgroundImage: `url(${assets.aboutHero})`, 
       }}
     >
       {/* 🔵 Overlay */}

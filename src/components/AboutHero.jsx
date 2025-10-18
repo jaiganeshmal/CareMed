@@ -1,12 +1,12 @@
 import React from "react";
-import { assets } from "../assets/global"; // ✅ Make sure to add your image path here
+import { assets } from "../assets/global";
 
 const AboutHero = () => {
   return (
     <section
       className="relative w-full h-[80vh] flex items-center bg-center bg-cover"
       style={{
-        backgroundImage: `url(${assets.aboutHero})`, // 🖼️ Replace with your image
+        backgroundImage: `url(${assets.aboutHero})`,
       }}
     >
       {/* 🔵 Overlay */}

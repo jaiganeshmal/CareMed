@@ -10,7 +10,7 @@ const ExpertTeamSection = () => {
         {/* 🔹 Left Image */}
         <div className="overflow-hidden rounded-2xl shadow-lg group h-full">
           <img
-            src={assets.team} // ✅ from your global.js
+            src={assets.team} 
             alt="Medical Team"
             loading="lazy"
             className="w-full h-full object-cover transform transition-transform duration-700 ease-in-out group-hover:scale-105"

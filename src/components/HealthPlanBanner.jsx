@@ -1,5 +1,5 @@
 import React from "react";
-import { assets } from "../assets/global"; // 🖼️ Your banner image here
+import { assets } from "../assets/global"; 
 
 const HealthPlanBanner = () => {
   return (

@@ -1,12 +1,12 @@
 import React from "react";
-import { assets } from "../assets/global"; // ✅ background image from global.js
+import { assets } from "../assets/global"; 
 
 const ContactHero = () => {
     return (
         <section
             className="relative w-full bg-cover bg-center bg-no-repeat"
             style={{
-                backgroundImage: `url(${assets.testimonialBg})`, // ✅ your global image key
+                backgroundImage: `url(${assets.testimonialBg})`, 
             }}
         >
             {/* Overlay */}

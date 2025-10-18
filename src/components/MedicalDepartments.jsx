@@ -26,7 +26,7 @@ const MedicalDepartments = () => {
   return (
     <section className="w-full py-10 bg-[#21297f] text-white relative">
       <div className="container mx-auto px-6">
-        {/* 🔹 Heading with top green bar above text */}
+        {/* 🔹 Heading */}
         <div className="mb-6 relative inline-block">
           <div className="absolute top-0 left-0 w-1/4 rounded-full h-1 bg-[#00DAF0] -translate-y-3"></div>
           <h2 className="text-3xl md:text-4xl font-bold text-white text-left relative z-10">

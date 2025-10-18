@@ -13,10 +13,10 @@ const Navbar = () => {
       <div className="bg-[#283290] text-gray-200 text-sm py-2">
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex gap-6">
-            <Link to="/" className="hover:text-green-400 transition">
+            <Link to="/" className="hover:text-[#00DAF0] transition">
               FAQ
             </Link>
-            <Link to="/" className="hover:text-green-400 transition">
+            <Link to="/" className="hover:text-[#00DAF0] transition">
               Request an Appointment
             </Link>
           </div>

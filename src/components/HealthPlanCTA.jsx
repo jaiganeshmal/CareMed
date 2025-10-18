@@ -7,7 +7,7 @@ const HealthPlanCTA = () => {
     <section
       className="relative bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: `url(${assets.healthPlanBg})`, // ✅ from global.js
+        backgroundImage: `url(${assets.healthPlanBg})`,
       }}
     >
       {/* 🔹 Blue Overlay */}

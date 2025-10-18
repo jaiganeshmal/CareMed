@@ -1,12 +1,12 @@
 import React from "react";
-import { assets } from "../assets/global"; // ✅ image from global.js
+import { assets } from "../assets/global";
 
 const ServiceHero = () => {
   return (
     <section
       className="relative w-full bg-cover bg-center bg-no-repeat flex items-center"
       style={{
-        backgroundImage: `url(${assets.serviceHero})`, // 👈 image from your global.js
+        backgroundImage: `url(${assets.serviceHero})`,
         minHeight: "80vh",
       }}
     >
