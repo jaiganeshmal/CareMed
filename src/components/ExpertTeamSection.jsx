@@ -8,7 +8,7 @@ const ExpertTeamSection = () => {
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-10 px-6">
 
         {/* 🔹 Left Image */}
-        <div className="overflow-hidden rounded-2xl shadow-lg group h-full">
+        <div className="overflow-hidden rounded-2xl shadow-lg group h-3/4 ">
           <img
             src={assets.team} 
             alt="Medical Team"
@@ -24,7 +24,7 @@ const ExpertTeamSection = () => {
 
           {/* Heading */}
           <h2 className="text-3xl md:text-4xl font-bold text-[#21297f] mb-5 leading-snug">
-            A Great Medical Team <br /> to Help Your Needs
+            A Great Surigcal Team <br /> to Help Your Needs
           </h2>
 
           {/* Paragraph */}

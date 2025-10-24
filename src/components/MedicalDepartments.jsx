@@ -4,20 +4,20 @@ import { assets } from "../assets/global";
 const departments = [
   {
     id: 1,
-    title: "PLASTIC SURGERY",
-    doctor: "Dr. James Smith",
+    title: "Air Management",
+    // doctor: "Dr. James Smith",
     image: assets.dept1,
   },
   {
     id: 2,
-    title: "GASTROENTEROLOGY",
-    doctor: "Dr. Gunther Roscoe",
+    title: "Anaesthesia",
+    // doctor: "Dr. Gunther Roscoe",
     image: assets.dept2,
   },
   {
     id: 3,
-    title: "DENTISTRY",
-    doctor: "Dr. Maria Williams",
+    title: "Cirtical Care",
+    // doctor: "Dr. Maria Williams",
     image: assets.dept3,
   },
 ];
@@ -30,7 +30,7 @@ const MedicalDepartments = () => {
         <div className="mb-6 relative inline-block">
           <div className="absolute top-0 left-0 w-1/4 rounded-full h-1 bg-[#00DAF0] -translate-y-3"></div>
           <h2 className="text-3xl md:text-4xl font-bold text-white text-left relative z-10">
-            Our Surgical Departments
+            Our  Product Range
           </h2>
         </div>
 
@@ -53,7 +53,7 @@ const MedicalDepartments = () => {
                   <h3 className="text-lg font-bold mb-1 text-[#21297f]">
                     {dept.title}
                   </h3>
-                  <p className="text-sm text-gray-600">{dept.doctor}</p>
+                  {/* <p className="text-sm text-gray-600">{dept.doctor}</p> */}
                 </div>
               </div>
             ))}

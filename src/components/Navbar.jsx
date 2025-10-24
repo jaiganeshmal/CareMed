@@ -9,27 +9,9 @@ const Navbar = () => {
   
   return (
     <header className="w-full shadow-md">
-      {/* 🔹 Top Bar */}
-      <div className="bg-[#283290] text-gray-200 text-sm py-2">
-        <div className="container mx-auto px-4 flex justify-between items-center">
-          <div className="flex gap-6">
-            <Link to="/" className="hover:text-[#00DAF0] transition">
-              FAQ
-            </Link>
-            <Link to="/" className="hover:text-[#00DAF0] transition">
-              Request an Appointment
-            </Link>
-          </div>
-
-          <div className="bg-red-600 px-3 py-1 rounded text-white text-xs md:text-sm">
-            For Emergencies: +92 51 5707300
-          </div>
-        </div>
-      </div>
-
       {/* 🔹 Main Navbar */}
       <nav className="bg-white">
-        <div className="container mx-auto px-4 py-3 flex justify-between items-center">
+        <div className="container mx-auto px-4 py-2 flex justify-between items-center">
           {/* ✅ Logo from assets */}
           <Link to="/" className="flex items-center space-x-2">
             <img

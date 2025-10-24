@@ -11,14 +11,14 @@ const cardsData = [
   },
   {
     id: 2,
-    title: "Appointments",
+    title: "Shipping Details",
     desc: "Schedule your visit easily with our online system or by calling us directly.",
     icon: <FaCalendarCheck className="text-4xl text-white mb-3" />,
     bgColor: "bg-[#1565C0]", // ✅ Deep Blue
   },
   {
     id: 3,
-    title: "Emergency Cases",
+    title: "Contact us",
     desc: "For urgent care or emergencies, contact our 24/7 helpline.",
     icon: <FaPhoneAlt className="text-4xl text-white mb-3" />,
     bgColor: "bg-[#1565C0]", // ✅ Deep Blue

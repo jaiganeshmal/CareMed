@@ -3,22 +3,22 @@ import { assets } from "../assets/global"; // ✅ images from global.js
 
 const doctors = [
   {
-    name: "Dr. Melissa Smith",
+    name: "Melissa Smith",
     role: "Cardiologist",
     img: assets.doctor1,
   },
   {
-    name: "Dr. Josh Henderson",
+    name: "Josh Henderson",
     role: "Plastic Surgeon",
     img: assets.doctor2,
   },
   {
-    name: "Dr. Christine Jones",
+    name: "Christine Jones",
     role: "Pediatrician",
     img: assets.doctor3,
   },
   {
-    name: "Dr. William Stan",
+    name: "William Stan",
     role: "General Practitioner",
     img: assets.doctor4,
   },
@@ -31,7 +31,7 @@ const MedicalTeam = () => {
         {/* 🔹 Section Heading  */}
         <h2 className="text-3xl md:text-4xl font-bold text-[#212121] mb-8 relative">
           <span className="border-l-4 border-[#00DAF0] pl-4">
-            Meet Our Medical Team
+            Meet Our Surgical Team
           </span>
         </h2>
 
