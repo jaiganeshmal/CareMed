@@ -5,20 +5,26 @@ const departments = [
   {
     id: 1,
     title: "Air Management",
-    // doctor: "Dr. James Smith",
+    des: "Airway management devices including airway devices, accessories, patient connections, breathing filters, HMEs and HMEFs and atomisation devices.",
     image: assets.dept1,
   },
   {
     id: 2,
     title: "Anaesthesia",
-    // doctor: "Dr. Gunther Roscoe",
+    des: "Anaesthesia, recovery and emergency care products including face masks, breathing and resuscitation systems and carbon dioxide absorbents.",
     image: assets.dept2,
   },
   {
     id: 3,
     title: "Cirtical Care",
-    // doctor: "Dr. Maria Williams",
+    des: "Respiratory products for ventilatory support including patient interfaces, breathing systems, CPAP devices, oral care and closed suction systems.",
     image: assets.dept3,
+  },
+  {
+    id: 4,
+    title: "Oxygen And Aerosol Therapy",
+    des: "Products for fixed and variable concentration oxygen therapy, aerosol therapy, humidification and nebulisation.",
+    image: assets.dept4,
   },
 ];
 
@@ -35,9 +41,7 @@ const MedicalDepartments = () => {
         </div>
 
         {/* 🔹 Cards + Right Text Side-by-Side */}
-        <div className="flex flex-col lg:flex-row items-start justify-between gap-8">
-          {/* Left: 3 Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 flex-grow">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 flex-grow w-full">
             {departments.map((dept) => (
               <div
                 key={dept.id}
@@ -49,29 +53,15 @@ const MedicalDepartments = () => {
                   loading="lazy"
                   className="w-full h-56 object-cover"
                 />
-                <div className="p-6 text-center">
+                <div className="p-4 text-center">
                   <h3 className="text-lg font-bold mb-1 text-[#21297f]">
                     {dept.title}
                   </h3>
-                  {/* <p className="text-sm text-gray-600">{dept.doctor}</p> */}
+                  <p className="text-sm text-left text-gray-600">{dept.des}</p>
                 </div>
               </div>
             ))}
           </div>
-
-          {/* Right: Text + Button */}
-          <div className="lg:w-1/3 flex flex-col justify-between text-gray-100 lg:pl-6">
-            <p className="text-sm leading-relaxed mb-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              ante leo, finibus quis est ut, tempor tincidunt ipsum. Nam
-              consequat semper sollicitudin. Aliquam nec dapibus massa.
-              Pellentesque in luctus ex.
-            </p>
-            <button className="bg-white text-[#21297f] font-semibold px-8 py-3 rounded-sm border-b-4 border-[#00DAF0] hover:bg-gray-200 transition duration-300 w-fit">
-              READ MORE
-            </button>
-          </div>
-        </div>
       </div>
     </section>
   );

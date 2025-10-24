@@ -6,19 +6,19 @@ const services = [
     id: 1,
     title: "We help you",
     desc: "Our dedicated staff ensures personalized attention, guiding you through every step of recovery with care and compassion.",
-    img: assets.service1,
+    img: 'https://www.intersurgical.com/content/images/dynamic/129444/-1312187611/catalogues-v2.jpg',
   },
   {
     id: 2,
     title: "Medicine for you",
     desc: "We provide reliable prescriptions and medical guidance tailored to your health needs, ensuring quality and trust.",
-    img: assets.service2,
+    img: 'https://www.intersurgical.com/content/images/dynamic/129447/-1720142274/get-to-know-intersurgical-image-education.jpg',
   },
   {
     id: 3,
     title: "Amazing technology",
     desc: "Equipped with state-of-the-art diagnostic tools and modern equipment to ensure accurate, fast, and safe treatments.",
-    img: assets.service3,
+    img: 'https://www.intersurgical.com/content/images/dynamic/129446/-2114487578/get-to-know-intersurgical-image-find-your-local-contact.jpg',
   },
 ];
 

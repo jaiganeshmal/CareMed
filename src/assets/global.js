@@ -9,6 +9,7 @@ export const assets = {
   dept1: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1761284674/dept1_yi0klu.jpg',
   dept2: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1761284733/dept2_usffsz.jpg',
   dept3: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1761284761/dept3_vclihp.jpg',
+  dept4: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1761302144/OxyAerosol_vjcjfk.jpg',
   bannerBg: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1760525145/bannerBg_gyzjnw.jpg',
   aboutHero: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1760525145/aboutHero_kzyxlr.jpg',
   testimonialBg: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1760525215/testimonialBg_sxiryx.jpg',
