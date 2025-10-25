@@ -23,7 +23,7 @@ const Navbar = () => {
           </Link>
 
           {/* Desktop Menu */}
-          <ul className="hidden md:flex gap-8 text-gray-700 font-medium">
+          <ul className="hidden md:flex gap-8 text-gray-700 font-medium md:pr-6">
             <li>
               <Link to="/" className="hover:text-[#00DAF0] transition">
                 Home
@@ -50,12 +50,6 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-
-          {/* Emergency Button */}
-          <button className="hidden md:flex items-center gap-2 bg-[#00DAF0] text-white px-4 py-2 rounded-lg hover:bg-[#0bc3d8] transition">
-            <FaPhoneAlt className="text-sm" />
-            <span>+92 51 5707299</span>
-          </button>
 
           {/* Mobile Menu Toggle */}
           <button

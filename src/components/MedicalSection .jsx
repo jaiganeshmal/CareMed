@@ -144,11 +144,11 @@ const MedicalSection = () => {
           </ul>
         </div>
 
-        {/* Appointments */}
+        {/* contact  */}
         <div className="bg-blue-900 text-white p-6 rounded-xl shadow-lg">
           <div className="flex items-center mb-3 text-lg">
             <FaPhoneAlt className="mr-2 text-[#00DAF0] text-xl" />
-            <h3 className="font-semibold">Appointments</h3>
+            <h3 className="font-semibold">Shipping Details</h3>
           </div>
           <p className="text-sm text-gray-200">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consequat semper sollicitudin.
@@ -159,7 +159,7 @@ const MedicalSection = () => {
         <div className="bg-blue-900 text-white p-6 rounded-xl shadow-lg">
           <div className="flex items-center mb-3 text-lg">
             <FaAmbulance className="mr-2 text-[#00DAF0] text-xl" />
-            <h3 className="font-semibold">Emergency Cases</h3>
+            <h3 className="font-semibold">Contact us</h3>
           </div>
           <p className="text-[#00DAF0] text-lg font-semibold mb-2">
             +92 51 5707299

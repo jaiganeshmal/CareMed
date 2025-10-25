@@ -17,7 +17,7 @@ const AboutHero = () => {
         <div className="max-w-2xl">
           {/* Title */}
           <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-3">
-            About <span className="text-[#00DAF0]">Our Clinic</span>
+            About <span className="text-[#00DAF0]">Our shipping</span>
           </h1>
 
           {/* Subtext */}

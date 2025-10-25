@@ -29,7 +29,7 @@ const ExpertTeamSection = () => {
 
           {/* Paragraph */}
           <p className="text-gray-600 leading-relaxed mb-8 text-[15px]">
-            Our experienced doctors and healthcare experts are committed to
+            Our experienced Surgical productss and healthcare experts are committed to
             providing high-quality medical care with compassion and precision.
             We focus on your complete well-being using modern technology,
             personalized attention, and years of trusted experience.

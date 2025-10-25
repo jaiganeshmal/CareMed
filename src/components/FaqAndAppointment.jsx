@@ -2,14 +2,14 @@ import React, { useState } from "react";
 
 const faqs = [
   {
-    question: "What are your clinic hours?",
+    question: "What are your shipping  hours?",
     answer:
-      "Our clinic operates from Monday to Saturday, 9:00 AM to 7:00 PM. Emergency services are available 24/7.",
+      "Our shipping  operates from Monday to Saturday, 9:00 AM to 7:00 PM. Emergency services are available 24/7.",
   },
   {
     question: "Do I need an appointment to visit?",
     answer:
-      "Appointments are recommended, but we also accept walk-in patients based on availability.",
+      "contact  are recommended, but we also accept walk-in patients based on availability.",
   },
   {
     question: "Which insurance providers do you accept?",
@@ -81,7 +81,7 @@ const FaqAndAppointment = () => {
           <div className="absolute -top-16 -right-16 w-40 h-40 bg-[#20D34A]/30 rounded-full blur-3xl"></div>
 
           <h2 className="text-3xl font-bold mb-3 relative z-10">
-            Make An Appointment
+            Make An Shipping Details
           </h2>
 
           <form className="space-y-4 relative z-10">
