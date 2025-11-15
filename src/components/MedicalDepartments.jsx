@@ -51,7 +51,7 @@ const MedicalDepartments = () => {
                   src={dept.image}
                   alt={dept.title}
                   loading="lazy"
-                  className="w-full h-56 object-cover"
+                  className="w-full h-56 object-cover border border-b-2 border-gray-100"
                 />
                 <div className="p-4 text-center">
                   <h3 className="text-lg font-bold mb-1 text-[#21297f]">
