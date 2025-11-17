@@ -7,3 +7,32 @@
   scroll-behavior: smooth;
   font-family: "Inter", sans-serif;
 }
+
+/* ========= FLOAT ANIMATIONS ========= */
+
+@keyframes smoothFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+@keyframes smoothFloatX {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+}
+
+/* Apply Animation Classes */
+.animate-float {
+  animation: smoothFloat 6s ease-in-out infinite;
+}
+
+.animate-floatX {
+  animation: smoothFloatX 7s ease-in-out infinite;
+}
