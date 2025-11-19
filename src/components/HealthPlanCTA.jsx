@@ -1,8 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { assets } from "../assets/global";
 
 const HealthPlanCTA = () => {
+  let navigate = useNavigate()
   return (
     <section
       className="relative bg-cover bg-center bg-no-repeat"
@@ -11,7 +12,7 @@ const HealthPlanCTA = () => {
       }}
     >
       {/* 🔹 Blue Overlay */}
-      <div className="absolute inset-0 bg-[#21297f]/65"></div>
+      <div className="absolute inset-0 bg-[#3BB8FD]/25"></div>
 
       {/* 🔹 Content */}
       <div className="relative max-w-5xl mx-auto text-left text-white py-10 px-6">
@@ -28,12 +29,14 @@ const HealthPlanCTA = () => {
         </p>
 
         {/* ✅ Button */}
-        <Link
-          to="/contact"
-          className="inline-block bg-[#21297f] text-white border-2 border-[#00DAF0] px-10 py-3 rounded-md font-semibold uppercase tracking-wide transition-all duration-500 hover:bg-[#00DAF0] hover:text-[#21297f]"
-        >
-          Request a Plan
-        </Link>
+        <button
+          onClick={() => navigate('/contact')}
+          className="relative overflow-hidden px-10 py-3 font-semibold rounded-md bg-[#3BB8FD] text-white group transition-all duration-500">
+          <span className="relative z-10 group-hover:text-[#3BB8FD] transition-colors duration-300">
+            Request a Plan
+          </span>
+          <span className="absolute inset-0 bg-white translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out"></span>
+        </button>
       </div>
     </section>
   );

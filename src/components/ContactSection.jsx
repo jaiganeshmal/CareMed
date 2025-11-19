@@ -7,9 +7,9 @@ const ContactSection = () => {
             <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
                 {/* 🔹 LEFT: Contact Info */}
                 <div>
-                    <h2 className="text-3xl md:text-4xl font-bold text-[#21297f] mb-6 relative inline-block">
+                    <h2 className="text-3xl md:text-4xl font-bold text-[#3BB8FD] mb-6 relative inline-block">
                         Get in touch
-                        <span className="absolute top-0 left-0 w-1/4 h-1 bg-[#00DAF0] -translate-y-3"></span>
+                        {/* <span className="absolute top-0 left-0 w-1/4 h-1 bg-[#25a9f1] -translate-y-3"></span> */}
                     </h2>
 
                     <p className="text-gray-600 mb-8 leading-relaxed">
@@ -21,7 +21,7 @@ const ContactSection = () => {
                     {/* Contact Details */}
                     <ul className="space-y-5">
                         <li className="flex items-center">
-                            <div className="bg-[#00DAF0] p-3 rounded-md text-white mr-4">
+                            <div className="bg-[#3BB8FD] p-3 rounded-md text-white mr-4">
                                 <FaPhoneAlt size={18} />
                             </div>
                             <span className="text-gray-700 text-sm md:text-base">
@@ -30,7 +30,7 @@ const ContactSection = () => {
                         </li>
 
                         <li className="flex items-center">
-                            <div className="bg-[#00DAF0] p-3 rounded-md text-white mr-4">
+                            <div className="bg-[#3BB8FD] p-3 rounded-md text-white mr-4">
                                 <FaEnvelope size={18} />
                             </div>
                             <span className="text-gray-700 text-sm md:text-base">
@@ -39,7 +39,7 @@ const ContactSection = () => {
                         </li>
 
                         <li className="flex items-center">
-                            <div className="bg-[#00DAF0] p-3 rounded-md text-white mr-4">
+                            <div className="bg-[#3BB8FD] p-3 rounded-md text-white mr-4">
                                 <FaMapMarkerAlt size={18} />
                             </div>
                             <span className="text-gray-700 text-sm md:text-base">
@@ -55,30 +55,30 @@ const ContactSection = () => {
                         <input
                             type="text"
                             placeholder="Name"
-                            className="bg-gray-100 w-full p-3 rounded-md border border-gray-200 text-gray-700 focus:outline-none focus:ring-2 focus:ring-[#00DAF0]"
+                            className="bg-gray-100 w-full p-3 rounded-md border border-gray-200 text-gray-700 focus:outline-none focus:ring-2 focus:ring-[#25a9f1]"
                         />
                         <input
                             type="email"
                             placeholder="E-mail"
-                            className="bg-gray-100 w-full p-3 rounded-md border border-gray-200 text-gray-700 focus:outline-none focus:ring-2 focus:ring-[#00DAF0]"
+                            className="bg-gray-100 w-full p-3 rounded-md border border-gray-200 text-gray-700 focus:outline-none focus:ring-2 focus:ring-[#25a9f1]"
                         />
                     </div>
 
                     <input
                         type="text"
                         placeholder="Subject"
-                        className="bg-gray-100 w-full p-3 rounded-md border border-gray-200 text-gray-700 focus:outline-none focus:ring-2 focus:ring-[#00DAF0]"
+                        className="bg-gray-100 w-full p-3 rounded-md border border-gray-200 text-gray-700 focus:outline-none focus:ring-2 focus:ring-[#25a9f1]"
                     />
 
                     <textarea
                         placeholder="Message"
                         rows="5"
-                        className="bg-gray-100 w-full p-3 rounded-md border border-gray-200 text-gray-700 focus:outline-none focus:ring-2 focus:ring-[#00DAF0] resize-none"
+                        className="bg-gray-100 w-full p-3 rounded-md border border-gray-200 text-gray-700 focus:outline-none focus:ring-2 focus:ring-[#25a9f1] resize-none"
                     ></textarea>
 
                     <button
                         type="submit"
-                        className="relative overflow-hidden bg-[#283290] hover:bg-[#00DAF0] text-white font-bold px-8 py-3 rounded-md transition-all duration-300 uppercase tracking-wide"
+                        className="relative overflow-hidden bg-[#3BB8FD] hover:bg-[#25a9f1] text-white font-bold px-8 py-3 rounded-md transition-all duration-300 uppercase tracking-wide"
                     >
                         SEND
                     </button>

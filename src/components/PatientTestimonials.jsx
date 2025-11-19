@@ -31,9 +31,9 @@ const PatientTestimonials = () => {
       <div className="relative max-w-6xl mx-auto">
         {/* 🔹 Heading */}
         <h2 className="text-3xl md:text-4xl font-bold mb-6 relative inline-block text-white">
-          <span className="border-l-4 border-[#00DAF0] pl-4">
+          {/* <span className="border-l-4 border-[#00DAF0] pl-4"> */}
             Meet Our Team
-          </span>
+          {/* </span> */}
         </h2>
 
         {/* 🔹 Testimonials Grid */}
@@ -41,10 +41,10 @@ const PatientTestimonials = () => {
           {testimonials.map((item, index) => (
             <div
               key={index}
-              className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/10 shadow-lg hover:shadow-2xl hover:scale-[1.02] transition-all duration-500"
+              className="bg-[#3BB8FD]/15 backdrop-blur-sm rounded-xl p-6 border border-white/10 shadow-lg hover:shadow-2xl hover:scale-[1.02] transition-all duration-500"
             >
               {/* Quote Icon */}
-              <div className="bg-[#00DAF0] inline-block p-3 rounded-md mb-4">
+              <div className="bg-[#3BB8FD] inline-block p-3 rounded-md mb-4">
                 <FaQuoteLeft size={22} className="text-[#21297f]" />
               </div>
 
@@ -59,13 +59,13 @@ const PatientTestimonials = () => {
                   src={item.img}
                   alt={item.name}
                   loading="lazy"
-                  className="w-14 h-14 object-cover rounded-full border-2 border-[#00DAF0] shadow-md"
+                  className="w-14 h-14 object-cover rounded-full border-2 border-[#3BB8FD] shadow-md"
                 />
                 <div>
                   <h4 className="font-semibold text-white text-lg">
                     {item.name}
                   </h4>
-                  <p className="text-[#00DAF0] italic text-sm">{item.role}</p>
+                  <p className="text-[#3BB8FD] italic text-sm">{item.role}</p>
                 </div>
               </div>
             </div>

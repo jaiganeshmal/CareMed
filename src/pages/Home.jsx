@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import HeroSection from "../components/HeroSection";
 import InfoCards from "../components/InfoCards";
 import MedicalTeamSection from "../components/MedicalTeamSection";
-import MedicalDepartments from "../components/MedicalDepartments";
+// import MedicalDepartments from "../components/MedicalDepartments";
 import FeaturedServices from "../components/FeaturedServices";
 import HealthPlanBanner from "../components/HealthPlanBanner";
 import FaqAndAppointment from "../components/FaqAndAppointment";
@@ -20,7 +20,7 @@ const Home = () => {
       <HeroSection />
       <InfoCards />
       <MedicalTeamSection />
-      <MedicalDepartments />
+      {/* <MedicalDepartments /> */}
       <FeaturedServices />
       <HealthPlanBanner />
       <FaqAndAppointment />

@@ -24,7 +24,7 @@ const MedicalTeamSection = () => {
             est ut, tempor tincidunt ipsum.
           </p>
 
-          <button className="bg-[#21297f] text-white px-8 py-3 rounded-sm font-semibold border-b-4 border-[#00DAF0] hover:bg-[#1b216a] transition duration-300">
+          <button className="bg-[#3BB8FD] text-white px-8 py-3 rounded-sm font-semibold hover:bg-[#25a9f1] transition duration-300">
             READ MORE
           </button>
         </div>

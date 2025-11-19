@@ -24,7 +24,7 @@ const services = [
 
 const ServiceGrid = () => {
   return (
-    <section className="bg-[#21297f] py-10 px-6">
+    <section className="bg-[#3BB8FD] py-10 px-6">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {services.map((service) => (
@@ -44,8 +44,8 @@ const ServiceGrid = () => {
 
               {/* 🔹 Text Section */}
               <div className="p-6 text-left">
-                <div className="w-12 h-1 bg-[#00DAF0] mb-5 rounded-full"></div>
-                <h3 className="text-2xl font-semibold text-[#1a237e] mb-3">
+                {/* <div className="w-12 h-1 bg-[#00DAF0] mb-5 rounded-full"></div> */}
+                <h3 className="text-2xl font-semibold text-[#3BB8FD] mb-3">
                   {service.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed text-sm">

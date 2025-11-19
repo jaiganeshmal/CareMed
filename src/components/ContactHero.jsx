@@ -22,7 +22,7 @@ const ContactHero = () => {
                     you 24/7. Contact us and we’ll get back to you as soon as possible.
                 </p>
 
-                <button className="bg-[#00DAF0] hover:bg-white text-white hover:text-black font-semibold px-8 py-3 rounded-full shadow-md transition-all duration-300 w-fit">
+                <button className="bg-[#3BB8FD] hover:bg-white text-white hover:text-[#3BB8FD] font-semibold px-8 py-3 rounded-full shadow-md transition-all duration-300 w-fit">
                     Contact Now
                 </button>
             </div>

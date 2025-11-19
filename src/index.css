@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
 @import "tailwindcss";
 
 
@@ -15,7 +14,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-12px);
+    transform: translateY(-10px);
   }
 }
 
@@ -30,9 +29,9 @@
 
 /* Apply Animation Classes */
 .animate-float {
-  animation: smoothFloat 6s ease-in-out infinite;
+  animation: smoothFloat 4s ease-in-out infinite;
 }
 
 .animate-floatX {
-  animation: smoothFloatX 7s ease-in-out infinite;
+  animation: smoothFloatX 4s ease-in-out infinite;
 }

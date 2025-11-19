@@ -21,21 +21,21 @@ const PageNotFound = () => {
             textAnchor="middle"
             fontSize="100"
             fontWeight="800"
-            fill="#21297f"
+            fill="#3BB8FD"
           >
             404
           </text>
-          <circle cx="250" cy="340" r="8" fill="#20D34A" />
+          <circle cx="250" cy="340" r="8" fill="#25a9f1" />
           <path
             d="M190 300h120a15 15 0 010 30H190a15 15 0 010-30z"
-            fill="#00DAF0"
+            fill="#25a9f1"
           />
         </svg>
       </div>
 
       {/* 🔹 Text Section */}
       <div className="max-w-md mx-auto">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-[#21297f] mb-3">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-[#3BB8FD] mb-3">
           Oops! Page Not Found
         </h2>
         <p className="text-gray-600 text-base md:text-lg mb-8 leading-relaxed">
@@ -46,10 +46,10 @@ const PageNotFound = () => {
         {/* 🔹 Button */}
         <Link
           to="/"
-          className="relative inline-block bg-[#21297f] text-white font-semibold px-8 py-3 rounded-md overflow-hidden group transition-all duration-500 shadow-md"
+          className="relative inline-block bg-[#3BB8FD] text-white font-semibold px-8 py-3 rounded-md overflow-hidden group transition-all duration-500 shadow-md"
         >
           <span className="relative z-10">Back To Home</span>
-          <span className="absolute inset-0 bg-[#00DAF0] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out"></span>
+          <span className="absolute inset-0 bg-[#25a9f1] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out"></span>
         </Link>
       </div>
 

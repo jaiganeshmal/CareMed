@@ -25,27 +25,27 @@ const Navbar = () => {
           {/* Desktop Menu */}
           <ul className="hidden md:flex gap-8 text-gray-700 font-medium md:pr-6">
             <li>
-              <Link to="/" className="hover:text-[#00DAF0] transition">
+              <Link to="/" className="hover:text-[#3BB8FD] transition">
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/about" className="hover:text-[#00DAF0] transition">
+              <Link to="/about" className="hover:text-[#3BB8FD] transition">
                 About us
               </Link>
             </li>
             <li>
-              <Link to="/services" className="hover:text-[#00DAF0] transition">
+              <Link to="/services" className="hover:text-[#3BB8FD] transition">
                 Services
               </Link>
             </li>
             <li>
-              <Link to="/products" className="hover:text-[#00DAF0] transition">
+              <Link to="/products" className="hover:text-[#3BB8FD] transition">
                 Products
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="hover:text-[#00DAF0] transition">
+              <Link to="/contact" className="hover:text-[#3BB8FD] transition">
                 Contact
               </Link>
             </li>
@@ -64,27 +64,27 @@ const Navbar = () => {
         {menuOpen && (
           <ul className="md:hidden bg-gray-100 py-4 px-6 flex flex-col gap-4 font-medium text-gray-700">
             <li>
-              <Link to="/" onClick={() => setMenuOpen(false)} className="hover:text-[#00DAF0]">
+              <Link to="/" onClick={() => setMenuOpen(false)} className="hover:text-[#3BB8FD]">
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/about" onClick={() => setMenuOpen(false)} className="hover:text-[#00DAF0]">
+              <Link to="/about" onClick={() => setMenuOpen(false)} className="hover:text-[#3BB8FD]">
                 About us
               </Link>
             </li>
             <li>
-              <Link to="/services" onClick={() => setMenuOpen(false)} className="hover:text-[#00DAF0]">
+              <Link to="/services" onClick={() => setMenuOpen(false)} className="hover:text-[#3BB8FD]">
                 Services
               </Link>
             </li>
             <li>
-              <Link to="/products" onClick={() => setMenuOpen(false)} className="hover:text-[#00DAF0]">
+              <Link to="/products" onClick={() => setMenuOpen(false)} className="hover:text-[#3BB8FD]">
                 Products
               </Link>
             </li>
             <li>
-              <Link to="/contact" onClick={() => setMenuOpen(false)} className="hover:text-[#00DAF0] ">
+              <Link to="/contact" onClick={() => setMenuOpen(false)} className="hover:text-[#3BB8FD] ">
                 Contact
               </Link>
             </li>

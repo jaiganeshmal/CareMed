@@ -15,12 +15,9 @@ const ServiceHero = () => {
 
       {/* Content */}
       <div className="relative z-10 text-left px-10 md:px-20">
-        <div className="inline-block mb-6 relative">
-          <div className="absolute top-0 left-0 w-1/4 h-1 bg-[#00DAF0] -translate-y-4"></div>
-          <h1 className="text-4xl md:text-5xl font-bold text-white relative z-10">
+          <h1 className="text-4xl md:text-5xl font-bold text-white relative z-10 mb-6">
             Our Services
           </h1>
-        </div>
 
         <p className="text-gray-200 text-lg md:text-xl leading-relaxed max-w-2xl">
           We provide professional and innovative healthcare solutions tailored

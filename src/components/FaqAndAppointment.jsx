@@ -30,9 +30,9 @@ const FaqAndAppointment = () => {
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
         {/* 🔹 LEFT: FAQ SECTION */}
         <div>
-          <h2 className="text-3xl md:text-4xl font-bold mb-10 text-[#21297f] relative inline-block">
+          <h2 className="text-3xl md:text-4xl font-bold mb-10 text-[#3BB8FD] relative inline-block">
             Have Some Questions?
-            <span className="absolute -top-3 left-0 w-1/2 h-[3px] bg-[#00DAF0] rounded-full"></span>
+            {/* <span className="absolute -top-3 left-0 w-1/2 h-[3px] bg-[#00DAF0] rounded-full"></span> */}
           </h2>
 
           <div className="space-y-5">
@@ -46,13 +46,13 @@ const FaqAndAppointment = () => {
                   }`}
                 >
                   <button
-                    className="w-full flex justify-between items-center p-5 text-left font-medium text-[#21297f] hover:text-[#00DAF0] transition"
+                    className="w-full flex justify-between items-center p-5 text-left font-medium text-[#21297f] hover:text-[#3BB8FD] transition"
                     onClick={() => toggleFAQ(index)}
                   >
                     <span>{faq.question}</span>
                     <span
                       className={`text-2xl font-bold transition-transform duration-300 ${
-                        isOpen ? "rotate-45 text-[#20D34A]" : "rotate-0"
+                        isOpen ? "rotate-45 text-[#3BB8FD]" : "rotate-0"
                       }`}
                     >
                       +
@@ -76,7 +76,7 @@ const FaqAndAppointment = () => {
         </div>
 
         {/* 🔹 RIGHT: APPOINTMENT FORM */}
-        <div className="bg-[#21297f] text-white p-8 rounded-2xl shadow-xl relative overflow-hidden">
+        <div className="bg-[#3BB8FD] text-white p-8 rounded-2xl shadow-xl relative overflow-hidden">
           {/* Decorative green circle glow */}
           <div className="absolute -top-16 -right-16 w-40 h-40 bg-[#20D34A]/30 rounded-full blur-3xl"></div>
 
@@ -104,12 +104,12 @@ const FaqAndAppointment = () => {
             {/* Fancy animated button */}
             <button
               type="submit"
-              className="relative overflow-hidden px-10 py-3 font-semibold rounded-md transition-all duration-500 group bg-[#00DAF0]"
+              className="relative overflow-hidden px-10 py-3 font-semibold rounded-md transition-all duration-500 group bg-white"
             >
-              <span className="relative z-10 text-white group-hover:text-[#21297f] transition-colors duration-300">
+              <span className="relative z-10 text-black group-hover:text-[#21297f] transition-colors duration-300">
                 SUBMIT
               </span>
-              <span className="absolute inset-0 bg-white translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out"></span>
+              <span className="absolute inset-0 bg-sky-200 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out"></span>
             </button>
           </form>
         </div>

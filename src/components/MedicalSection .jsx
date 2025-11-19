@@ -92,7 +92,7 @@ const MedicalSection = () => {
                       cx="48"
                       cy="48"
                       r="42"
-                      stroke="#00DAF0"
+                      stroke="#3BB8FD"
                       strokeWidth="8"
                       fill="none"
                       strokeDasharray={circumference}
@@ -114,7 +114,7 @@ const MedicalSection = () => {
         {/* Button */}
         <Link
           to="/about"
-          className="inline-block bg-[#00DAF0] text-white px-8 py-3 font-medium mt-10 rounded-md shadow-md hover:bg-[#21297f] transition-all duration-500 hover:-translate-y-1"
+          className="inline-block bg-[#3BB8FD] text-white px-8 py-3 font-medium mt-10 rounded-md shadow-md hover:bg-[#25a9f1] transition-all duration-500 hover:-translate-y-1"
         >
           READ MORE
         </Link>
@@ -123,12 +123,12 @@ const MedicalSection = () => {
       {/* RIGHT SIDE */}
       <div className="lg:w-1/3 space-y-3">
         {/* Working Hours */}
-        <div className="bg-blue-900 text-white p-6 rounded-xl shadow-lg">
+        <div className="bg-[#3BB8FD] text-white p-6 rounded-xl shadow-lg">
           <div className="flex items-center mb-3 text-lg">
-            <FaClock className="mr-2 text-[#00DAF0] text-xl" />
+            <FaClock className="mr-2 text-gray-600 text-xl" />
             <h3 className="font-semibold">Working Hours</h3>
           </div>
-          <ul className="text-sm text-gray-200 space-y-2">
+          <ul className="text-sm space-y-2">
             <li>
               Monday – Friday{" "}
               <span className="float-right text-white font-medium">8.00 – 19.00</span>
@@ -145,26 +145,26 @@ const MedicalSection = () => {
         </div>
 
         {/* contact  */}
-        <div className="bg-blue-900 text-white p-6 rounded-xl shadow-lg">
+        <div className="bg-[#3BB8FD] text-white p-6 rounded-xl shadow-lg">
           <div className="flex items-center mb-3 text-lg">
-            <FaPhoneAlt className="mr-2 text-[#00DAF0] text-xl" />
+            <FaPhoneAlt className="mr-2 text-gray-600 text-xl" />
             <h3 className="font-semibold">Shipping Details</h3>
           </div>
-          <p className="text-sm text-gray-200">
+          <p className="text-sm ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consequat semper sollicitudin.
           </p>
         </div>
 
         {/* Emergency Cases */}
-        <div className="bg-blue-900 text-white p-6 rounded-xl shadow-lg">
+        <div className="bg-[#3BB8FD] text-white p-6 rounded-xl shadow-lg">
           <div className="flex items-center mb-3 text-lg">
-            <FaAmbulance className="mr-2 text-[#00DAF0] text-xl" />
+            <FaAmbulance className="mr-2 text-gray-600 text-xl" />
             <h3 className="font-semibold">Contact us</h3>
           </div>
-          <p className="text-[#00DAF0] text-lg font-semibold mb-2">
+          <p className="text-gray-600 text-lg font-semibold mb-2">
             +92 51 5707299
           </p>
-          <p className="text-sm text-gray-200">
+          <p className="text-sm">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div>

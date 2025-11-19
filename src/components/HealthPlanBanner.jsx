@@ -8,7 +8,7 @@ const HealthPlanBanner = () => {
       style={{ backgroundImage: `url(${assets.bannerBg})` }}
     >
       {/* 🔹 Blue Overlay */}
-      <div className="absolute inset-0 bg-[#21297f]/30"></div>
+      <div className="absolute inset-0 bg-[#3BB8FD]/30"></div>
 
       {/* 🔹 Content */}
       <div className="relative z-10 flex flex-col items-center justify-center text-center text-white py-16 px-6">
@@ -24,10 +24,10 @@ const HealthPlanBanner = () => {
         </p>
 
         {/* Button */}
-        <button className="relative overflow-hidden px-10 py-4 font-semibold text-white bg-[#21297f] rounded-md transition-all duration-300 group">
-          <span className="relative z-10">REQUEST A PLAN</span>
+        <button className="relative overflow-hidden px-10 py-4 font-semibold text-white hover:text-[#25a9f1] bg-[#3BB8FD] rounded-md transition-all duration-300 group">
+          <span className="relative z-10 ">REQUEST A PLAN</span>
           {/* Green fill effect on hover */}
-          <span className="absolute inset-0 bg-[#00DAF0] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out"></span>
+          <span className="absolute inset-0 bg-white translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out"></span>
         </button>
       </div>
     </section>

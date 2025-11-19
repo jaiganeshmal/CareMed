@@ -17,12 +17,12 @@ const ProductSubCategories = ({ category, onBack, onSelectSub }) => {
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="flex justify-between items-center mb-12 flex-wrap gap-4">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-[#21297f]">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-[#3BB8FD]">
             {category.name}
           </h2>
           <button
             onClick={onBack}
-            className="text-[#00DAF0] font-semibold hover:text-[#21297f] transition-all duration-300 text-base"
+            className="text-[#3BB8FD] font-semibold hover:text-[#25a9f1] transition-all duration-300 text-base"
           >
             ← Back to Categories
           </button>
@@ -57,7 +57,7 @@ const ProductSubCategories = ({ category, onBack, onSelectSub }) => {
 
               {/* Info */}
               <div className="p-6 text-center">
-                <h3 className="text-xl font-semibold text-[#21297f] mb-2 group-hover:text-[#00DAF0] transition-colors duration-300">
+                <h3 className="text-xl font-semibold text-[#3BB8FD] mb-2 group-hover:text-[#25a9f1] transition-colors duration-300">
                   {sub.name}
                 </h3>
                 {sub.description && (
@@ -74,7 +74,7 @@ const ProductSubCategories = ({ category, onBack, onSelectSub }) => {
               </div>
 
               {/* Hover Accent Line */}
-              <div className="h-[4px] bg-[#00DAF0] w-0 group-hover:w-full transition-all duration-500"></div>
+              <div className="h-[4px] bg-[#25a9f1] w-0 group-hover:w-full transition-all duration-500"></div>
             </div>
           ))}
         </div>

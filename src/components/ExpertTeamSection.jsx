@@ -20,10 +20,10 @@ const ExpertTeamSection = () => {
         {/* 🔹 Right Content */}
         <div className="text-left">
           {/* Border Line */}
-          <div className="w-16 h-[3px] bg-[#00DAF0] mb-4 rounded-full"></div>
+          {/* <div className="w-16 h-[3px] bg-[#00DAF0] mb-4 rounded-full"></div> */}
 
           {/* Heading */}
-          <h2 className="text-3xl md:text-4xl font-bold text-[#21297f] mb-5 leading-snug">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#3BB8FD] mb-5 leading-snug">
             A Great Surigcal Team <br /> to Help Your Needs
           </h2>
 
@@ -38,7 +38,7 @@ const ExpertTeamSection = () => {
           {/* Button */}
           <Link
             to="/about"
-            className="inline-block bg-[#00DAF0] text-white font-semibold px-8 py-3 rounded-md text-sm tracking-wide shadow-md hover:bg-[#1a1f6b] transition-all duration-300 relative"
+            className="inline-block bg-[#3BB8FD] text-white font-semibold px-8 py-3 rounded-md text-sm tracking-wide shadow-md hover:bg-[#25a9f1] transition-all duration-300 relative"
           >
             READ MORE
           </Link>

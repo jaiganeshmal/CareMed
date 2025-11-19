@@ -6,12 +6,12 @@ const ProductCards = ({ subcategory, onBack }) => {
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
         <div className="flex justify-between items-center mb-8 flex-wrap gap-3">
-          <h2 className="text-3xl font-bold text-[#21297f]">
+          <h2 className="text-3xl font-bold text-[#3BB8FD]">
             {subcategory.name}
           </h2>
           <button
             onClick={onBack}
-            className="text-[#00DAF0] font-semibold hover:underline transition-all"
+            className="text-[#3BB8FD] font-semibold hover:underline transition-all"
           >
             ← Back to Subcategories
           </button>
@@ -34,7 +34,7 @@ const ProductCards = ({ subcategory, onBack }) => {
                 href={prod.pdf}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-[#00DAF0] text-white px-6 py-2 rounded-full font-medium hover:bg-[#21297f] transition-all duration-300"
+                className="inline-block bg-[#25a9f1] text-white px-6 py-2 rounded-full font-medium hover:bg-[#3BB8FD] transition-all duration-300"
               >
                 View PDF
               </a>

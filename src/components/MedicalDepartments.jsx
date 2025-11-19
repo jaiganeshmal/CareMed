@@ -30,7 +30,7 @@ const departments = [
 
 const MedicalDepartments = () => {
   return (
-    <section className="w-full py-10 bg-[#21297f] text-white relative">
+    <section className="w-full py-10 bg-[#3BB8FD] text-white relative">
       <div className="container mx-auto px-6">
         {/* 🔹 Heading */}
         <div className="mb-6 relative inline-block">
@@ -54,7 +54,7 @@ const MedicalDepartments = () => {
                   className="w-full h-56 object-cover border border-b-2 border-gray-100"
                 />
                 <div className="p-4 text-center">
-                  <h3 className="text-lg font-bold mb-1 text-[#21297f]">
+                  <h3 className="text-lg font-bold mb-1 text-[#3BB8FD]">
                     {dept.title}
                   </h3>
                   <p className="text-sm text-left text-gray-600">{dept.des}</p>

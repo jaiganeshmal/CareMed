@@ -49,13 +49,13 @@ const services = [
 
 const FeaturedServices = () => {
   return (
-    <section className="w-full py-10 bg-white text-gray-800">
+    <section className="w-full py-10 bg-white text-gray-800 ">
       <div className="container mx-auto px-6">
         {/* 🔹 Heading Section */}
         <div className="mb-6 relative inline-block">
-          <div className="absolute top-0 left-0 w-1/4 h-1 rounded-full bg-[#00DAF0] -translate-y-3"></div>
-          <h2 className="text-3xl md:text-4xl font-bold text-[#21297f] text-left relative z-10">
-            Our Featured Services
+          {/* <div className="absolute top-0 left-0 w-1/4 h-1 rounded-full bg-[#00DAF0] -translate-y-3"></div> */}
+          <h2 className="text-3xl md:text-4xl font-bold text-[#z] text-left relative z-10">
+            Our Product Range
           </h2>
         </div>
 
@@ -64,9 +64,9 @@ const FeaturedServices = () => {
           {services.map((service) => (
             <div
               key={service.id}
-              className="group bg-[#f9f9f9] rounded-xl shadow-md p-8 transition-all duration-300 hover:-translate-y-2 hover:bg-[#283290] flex flex-col items-center border-b-4 border-transparent hover:border-[#00DAF0]"
+              className="group bg-[#f9f9f9] rounded-xl shadow-md p-8 transition-all duration-300 hover:-translate-y-2 hover:bg-[#3BB8FD] flex flex-col items-center border-b-4 border-transparent hover:border-[#25a9f1]"
             >
-              <div className="text-[#00DAF0] mb-4 transition-colors duration-300 group-hover:text-white">
+              <div className="text-[#3BB8FD] mb-4 transition-colors duration-300 group-hover:text-white">
                 {service.icon}
               </div>
               <h3 className="text-xl font-bold mb-2 text-[#21297f] transition-colors duration-300 group-hover:text-white">
