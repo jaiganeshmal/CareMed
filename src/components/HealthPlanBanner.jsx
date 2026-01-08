@@ -24,7 +24,7 @@ const HealthPlanBanner = () => {
         </p>
 
         {/* Button */}
-        <button className="relative overflow-hidden px-10 py-4 font-semibold text-white hover:text-[#25a9f1] bg-[#3BB8FD] rounded-md transition-all duration-300 group">
+        <button className="relative overflow-hidden px-10 py-4 font-semibold text-white hover:text-[#25a9f1] bg-[#0a8ddf] rounded-md transition-all duration-300 group">
           <span className="relative z-10 ">REQUEST A PLAN</span>
           {/* Green fill effect on hover */}
           <span className="absolute inset-0 bg-white translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out"></span>

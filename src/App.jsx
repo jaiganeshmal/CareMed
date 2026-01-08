@@ -3,11 +3,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Loader from "./components/Loader"; 
+import Blog from "./pages/Blog";
 
 // 🔹 Lazy-loaded Pages
 const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
-const Services = lazy(() => import("./pages/Services"));
+// const Services = lazy(() => import("./pages/Services"));
 const Products = lazy(() => import("./pages/Products"));
 const Contact = lazy(() => import("./pages/Contact"));
 const PageNotFound = lazy(() => import("./components/PageNotFound"));
@@ -23,8 +24,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/services" element={<Services />} />
+            {/* <Route path="/services" element={<Services />} /> */}
             <Route path="/products" element={<Products />} />
+            <Route path="/blogs" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<PageNotFound />} />
           </Routes>

@@ -8,10 +8,9 @@ const MedicalTeamSection = () => {
         {/* 🔹 Left Content */}
         <div className="md:w-1/2">
           {/* line */}
-          <div className="w-16 h-[3px] bg-[#00DAF0] mb-4"></div>
 
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-            A great Surgical team to help your needs
+          <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">
+            A Great Surgical Team To Help Your Needs
           </h2>
 
           <p className="text-gray-600 mb-6 leading-relaxed">

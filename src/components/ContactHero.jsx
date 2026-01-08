@@ -1,12 +1,12 @@
 import React from "react";
-import { assets } from "../assets/global"; 
+import { assets } from "../assets/global";
 
 const ContactHero = () => {
     return (
         <section
             className="relative w-full bg-cover bg-center bg-no-repeat"
             style={{
-                backgroundImage: `url(${assets.testimonialBg})`, 
+                backgroundImage: `url(${assets.testimonialBg})`,
             }}
         >
             {/* Overlay */}
@@ -22,8 +22,11 @@ const ContactHero = () => {
                     you 24/7. Contact us and we’ll get back to you as soon as possible.
                 </p>
 
-                <button className="bg-[#3BB8FD] hover:bg-white text-white hover:text-[#3BB8FD] font-semibold px-8 py-3 rounded-full shadow-md transition-all duration-300 w-fit">
-                    Contact Now
+                <button className="relative w-max overflow-hidden bg-[#0a8ddf] text-white font-semibold px-10 py-4 rounded-full text-lg shadow-lg hover:scale-105 transition-all duration-500 group">
+                    <span className="relative z-10 group-hover:text-[#3BB8FD] transition-all duration-500">
+                        Contact us
+                    </span>
+                    <span className="absolute inset-0 bg-white translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out"></span>
                 </button>
             </div>
         </section>

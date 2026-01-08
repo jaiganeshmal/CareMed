@@ -3,6 +3,8 @@ import ProductCategories from "../components/ProductCategories";
 import ProductSubCategories from "../components/ProductSubCategories";
 import ProductCards from "../components/ProductCards";
 import ProductsHero from "../components/ProductsHero";
+import ProductAssurance from "../components/ProductAssurance";
+import ClientsServed from "../components/ClientsServed";
 
 const Products = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -284,33 +286,44 @@ const Products = () => {
     })
   }, [])
 
-  return (
-    <div className="overflow-hidden">
-      <ProductsHero />
+ return (
+  <div className="overflow-hidden">
+    {/* 1️⃣ HERO */}
+    <ProductsHero />
 
-      {!selectedCategory && (
-        <ProductCategories
-          categories={categories}
-          onSelect={setSelectedCategory}
-        />
-      )}
+    {/* 2️⃣ CATEGORIES */}
+    {!selectedCategory && (
+      <ProductCategories
+        categories={categories}
+        onSelect={setSelectedCategory}
+      />
+    )}
 
-      {selectedCategory && !selectedSubCategory && (
-        <ProductSubCategories
-          category={selectedCategory}
-          onBack={() => setSelectedCategory(null)}
-          onSelectSub={setSelectedSubCategory}
-        />
-      )}
+    {/* 3️⃣ SUBCATEGORIES */}
+    {selectedCategory && !selectedSubCategory && (
+      <ProductSubCategories
+        category={selectedCategory}
+        onBack={() => setSelectedCategory(null)}
+        onSelectSub={setSelectedSubCategory}
+      />
+    )}
 
-      {selectedSubCategory && (
-        <ProductCards
-          subcategory={selectedSubCategory}
-          onBack={() => setSelectedSubCategory(null)}
-        />
-      )}
-    </div>
-  );
+    {/* 4️⃣ PRODUCTS */}
+    {selectedSubCategory && (
+      <ProductCards
+        subcategory={selectedSubCategory}
+        onBack={() => setSelectedSubCategory(null)}
+      />
+    )}
+
+    {/* 5️⃣ ASSURANCE */}
+    <ProductAssurance />
+
+    {/* 6️⃣ CLIENTS */}
+    <ClientsServed />
+  </div>
+);
+
 };
 
 export default Products;

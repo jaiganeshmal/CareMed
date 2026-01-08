@@ -16,7 +16,7 @@ const ProductsHero = () => {
       <div className="relative z-10 max-w-6xl px-6 md:px-12 lg:px-20 text-left">
         <h1 className="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-2 animate-fadeIn">
           Discover Our{" "}
-          <span className="text-[#3BB8FD]">Products</span>
+          <span className="text-[#0a8ddf]">Products</span>
         </h1>
 
         <div className="w-28 h-1 bg-[#25a9f1] mb-8 rounded-full animate-expand"></div>
@@ -26,7 +26,7 @@ const ProductsHero = () => {
           streamline healthcare efficiency with advanced technology.
         </p>
 
-        <button className="relative overflow-hidden bg-[#3BB8FD] text-white font-semibold px-10 py-4 rounded-full text-lg shadow-lg hover:scale-105 transition-all duration-500 group">
+        <button className="relative overflow-hidden bg-[#0a8ddf] text-white font-semibold px-10 py-4 rounded-full text-lg shadow-lg hover:scale-105 transition-all duration-500 group">
           <span className="relative z-10 group-hover:text-[#3BB8FD] transition-all duration-500">
             Explore Products
           </span>

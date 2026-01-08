@@ -92,7 +92,7 @@ const MedicalSection = () => {
                       cx="48"
                       cy="48"
                       r="42"
-                      stroke="#3BB8FD"
+                      stroke="#0a8ddf"
                       strokeWidth="8"
                       fill="none"
                       strokeDasharray={circumference}
@@ -114,7 +114,7 @@ const MedicalSection = () => {
         {/* Button */}
         <Link
           to="/about"
-          className="inline-block bg-[#3BB8FD] text-white px-8 py-3 font-medium mt-10 rounded-md shadow-md hover:bg-[#25a9f1] transition-all duration-500 hover:-translate-y-1"
+          className="inline-block bg-[#0a8ddf] text-white px-8 py-3 font-medium mt-10 rounded-md shadow-md hover:bg-[#25a9f1] transition-all duration-500 hover:-translate-y-1"
         >
           READ MORE
         </Link>
@@ -123,7 +123,7 @@ const MedicalSection = () => {
       {/* RIGHT SIDE */}
       <div className="lg:w-1/3 space-y-3">
         {/* Working Hours */}
-        <div className="bg-[#3BB8FD] text-white p-6 rounded-xl shadow-lg">
+        <div className="bg-[#0a8ddf] text-white p-6 rounded-xl shadow-lg">
           <div className="flex items-center mb-3 text-lg">
             <FaClock className="mr-2 text-gray-600 text-xl" />
             <h3 className="font-semibold">Working Hours</h3>
@@ -145,7 +145,7 @@ const MedicalSection = () => {
         </div>
 
         {/* contact  */}
-        <div className="bg-[#3BB8FD] text-white p-6 rounded-xl shadow-lg">
+        <div className="bg-[#0a8ddf] text-white p-6 rounded-xl shadow-lg">
           <div className="flex items-center mb-3 text-lg">
             <FaPhoneAlt className="mr-2 text-gray-600 text-xl" />
             <h3 className="font-semibold">Shipping Details</h3>
@@ -156,7 +156,7 @@ const MedicalSection = () => {
         </div>
 
         {/* Emergency Cases */}
-        <div className="bg-[#3BB8FD] text-white p-6 rounded-xl shadow-lg">
+        <div className="bg-[#0a8ddf] text-white p-6 rounded-xl shadow-lg">
           <div className="flex items-center mb-3 text-lg">
             <FaAmbulance className="mr-2 text-gray-600 text-xl" />
             <h3 className="font-semibold">Contact us</h3>

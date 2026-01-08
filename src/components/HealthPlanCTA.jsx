@@ -31,7 +31,7 @@ const HealthPlanCTA = () => {
         {/* ✅ Button */}
         <button
           onClick={() => navigate('/contact')}
-          className="relative overflow-hidden px-10 py-3 font-semibold rounded-md bg-[#3BB8FD] text-white group transition-all duration-500">
+          className="relative overflow-hidden px-10 py-3 font-semibold rounded-md bg-[#0a8ddf] text-white group transition-all duration-500">
           <span className="relative z-10 group-hover:text-[#3BB8FD] transition-colors duration-300">
             Request a Plan
           </span>

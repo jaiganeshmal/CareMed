@@ -16,10 +16,10 @@ const Services = () => {
   return (
     <>
       <ServiceHero />
-      <FeaturedServices />
+      {/* <FeaturedServices /> */}
       <ServiceGrid />
       <ExpertTeamSection />
-      <HealthPlanBanner />
+      {/* <HealthPlanBanner /> */}
     </>
   )
 }

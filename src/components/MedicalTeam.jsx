@@ -55,7 +55,7 @@ const MedicalTeam = () => {
 
               {/* Doctor Info */}
               <div className="p-4 text-center">
-                <h3 className="text-lg font-semibold text-[#212121] mb-1 group-hover:text-[#3BB8FD] transition-colors duration-300">
+                <h3 className="text-lg font-semibold text-[#212121] mb-1 group-hover:text-[#0a8ddf] transition-colors duration-300">
                   {doctor.name}
                 </h3>
                 <p className="text-gray-500 mb-3">{doctor.role}</p>

@@ -30,7 +30,7 @@ const FaqAndAppointment = () => {
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
         {/* 🔹 LEFT: FAQ SECTION */}
         <div>
-          <h2 className="text-3xl md:text-4xl font-bold mb-10 text-[#3BB8FD] relative inline-block">
+          <h2 className="text-3xl md:text-4xl font-bold mb-10 text-[#0a8ddf] relative inline-block">
             Have Some Questions?
             {/* <span className="absolute -top-3 left-0 w-1/2 h-[3px] bg-[#00DAF0] rounded-full"></span> */}
           </h2>
@@ -76,7 +76,7 @@ const FaqAndAppointment = () => {
         </div>
 
         {/* 🔹 RIGHT: APPOINTMENT FORM */}
-        <div className="bg-[#3BB8FD] text-white p-8 rounded-2xl shadow-xl relative overflow-hidden">
+        <div className="bg-[#0a8ddf] text-white p-8 rounded-2xl shadow-xl relative overflow-hidden">
           {/* Decorative green circle glow */}
           <div className="absolute -top-16 -right-16 w-40 h-40 bg-[#20D34A]/30 rounded-full blur-3xl"></div>
 

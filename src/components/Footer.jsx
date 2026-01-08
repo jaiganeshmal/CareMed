@@ -5,7 +5,7 @@ import { assets } from "../assets/global";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#25a9f1] text-white pt-10 pb-8 relative">
+    <footer className="bg-[#0a8ddf] text-white pt-10 pb-8 relative">
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         
         {/* 🔹 Column 1 - Logo & About */}
@@ -66,14 +66,19 @@ const Footer = () => {
                 About
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/services" className="hover:text-gray-600 transition">
                 Services
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/products" className="hover:text-gray-600 transition">
                 Products
+              </Link>
+            </li>
+            <li>
+              <Link to="/blogs" className="hover:text-gray-600 transition">
+                Blog
               </Link>
             </li>
             <li>

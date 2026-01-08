@@ -23,7 +23,7 @@ export const assets = {
   service2: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1760525211/service2_kdmx0v.jpg',
   service3: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1760525211/service3_sp3iym.jpg',
   team: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1761288229/team_g0bpst.jpg',
-
+  image19: 'https://res.cloudinary.com/dy2ddzcoq/image/upload/v1767680753/img19_xwkix6.png',
   mriMachine: "https://res.cloudinary.com/dy2ddzcoq/image/upload/v1763370799/banner-right_nywq3n.png",
   stethoscope: "https://res.cloudinary.com/dy2ddzcoq/image/upload/v1763370973/icons-03_xi9vmr.png",
   injection: "https://res.cloudinary.com/dy2ddzcoq/image/upload/v1763370973/icons-01_u0yjvp.png",

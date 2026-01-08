@@ -1,80 +1,97 @@
 import React from "react";
 import {
-  FaUserMd,
-  FaHeartbeat,
-  FaXRay,
-  FaBriefcaseMedical,
-  FaStethoscope,
-  FaHospitalUser,
+  FaLayerGroup,
+  FaLungs,
+  FaTint,
+  FaBolt,
+  FaThLarge,
+  FaBoxOpen,
 } from "react-icons/fa";
 
-const services = [
+const productCategories = [
   {
     id: 1,
-    icon: <FaUserMd size={40} />,
+    icon: <FaLayerGroup size={36} />,
     title: "Wound Closure",
-    desc: "Precision tools designed for surgical excellence.",
+    desc: "Sutures, staplers, and closure systems engineered for consistent performance."
   },
   {
     id: 2,
-    icon: <FaHeartbeat size={40} />,
+    icon: <FaLungs size={36} />,
     title: "Airway Management",
-    desc: "High-quality dental tools for professionals.",
+    desc: "Reliable airway products supporting safe and efficient ventilation."
   },
   {
     id: 3,
-    icon: <FaXRay size={40} />,
+    icon: <FaTint size={36} />,
     title: "Hemostasis",
-    desc: "Reliable instruments for orthopedic surgeries.",
+    desc: "Effective bleeding control solutions for surgical environments."
   },
   {
     id: 4,
-    icon: <FaBriefcaseMedical size={40} />,
+    icon: <FaBolt size={36} />,
     title: "Energy Products",
-    desc: "Reliable instruments for orthopedic surgeries.",
+    desc: "Precision energy devices designed for controlled surgical applications."
   },
   {
     id: 5,
-    icon: <FaStethoscope size={40} />,
+    icon: <FaThLarge size={36} />,
     title: "Hernia Repair",
-    desc: "Reliable instruments for orthopedic surgeries.",
+    desc: "Mesh and repair solutions built for strength, safety, and availability."
   },
   {
     id: 6,
-    icon: <FaHospitalUser size={40} />,
+    icon: <FaBoxOpen size={36} />,
     title: "Other Products",
-    desc: "Reliable instruments for orthopedic surgeries.",
-  },
+    desc: "A comprehensive range supporting hospitals and surgical distributors."
+  }
 ];
 
 const FeaturedServices = () => {
   return (
-    <section className="w-full py-10 bg-white text-gray-800 ">
-      <div className="container mx-auto px-6">
-        {/* 🔹 Heading Section */}
-        <div className="mb-6 relative inline-block">
-          {/* <div className="absolute top-0 left-0 w-1/4 h-1 rounded-full bg-[#00DAF0] -translate-y-3"></div> */}
-          <h2 className="text-3xl md:text-4xl font-bold text-[#z] text-left relative z-10">
-            Our Product Range
+    <section className="w-full py-10 bg-[#F7FBFF]">
+      <div className="max-w-7xl mx-auto px-6">
+
+        {/* Heading */}
+        <div className="mb-14 max-w-3xl">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-[#0a8ddf]">
+            Our Product Portfolio
           </h2>
+          <p className="mt-4 text-gray-600 text-lg">
+            Structured categories ensuring availability, quality assurance,
+            and dependable supply for healthcare institutions.
+          </p>
         </div>
 
-        {/* 🔹 Service Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {services.map((service) => (
+        {/* Cards */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {productCategories.map((item) => (
             <div
-              key={service.id}
-              className="group bg-[#f9f9f9] rounded-xl shadow-md p-8 transition-all duration-300 hover:-translate-y-2 hover:bg-[#3BB8FD] flex flex-col items-center border-b-4 border-transparent hover:border-[#25a9f1]"
+              key={item.id}
+              className="group bg-white rounded-2xl p-8 border border-gray-100 shadow-sm
+                         hover:shadow-xl hover:-translate-y-2 transition-all duration-300"
             >
-              <div className="text-[#3BB8FD] mb-4 transition-colors duration-300 group-hover:text-white">
-                {service.icon}
+              {/* Icon */}
+              <div className="w-14 h-14 flex items-center justify-center rounded-xl 
+                              bg-[#EAF8FF] text-[#3BB8FD]
+                              group-hover:bg-[#3BB8FD] group-hover:text-white
+                              transition-all duration-300 mb-6">
+                {item.icon}
               </div>
-              <h3 className="text-xl font-bold mb-2 text-[#21297f] transition-colors duration-300 group-hover:text-white">
-                {service.title}
+
+              {/* Text */}
+              <h3 className="text-xl font-bold text-[#3BB8FD] mb-3">
+                {item.title}
               </h3>
-              <p className="text-gray-600 text-sm transition-colors duration-300 group-hover:text-gray-200 text-center">
-                {service.desc}
+
+              <p className="text-gray-600 text-sm leading-relaxed">
+                {item.desc}
               </p>
+
+              {/* CTA */}
+              <div className="mt-6 text-sm font-semibold text-[#3BB8FD] group-hover:text-[#25a9f1]">
+                View Products →
+              </div>
             </div>
           ))}
         </div>
