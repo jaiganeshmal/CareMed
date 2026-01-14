@@ -22,14 +22,14 @@ const Home = () => {
     <>
       <>
         <HeroSection />
-        <InfoCards />
+        {/* <InfoCards /> */}
+        <ClientsServed />        
         <FeaturedServices />     
         <Distribution />         
-        <ClientsServed />        
         {/* <MedicalTeamSection />  //mewdjkm */}
         <TestimonialsSection />
-        <HealthPlanBanner />
-        <FaqAndAppointment />
+        {/* <HealthPlanBanner /> */}
+        {/* <FaqAndAppointment /> */}
       </>
 
     </>

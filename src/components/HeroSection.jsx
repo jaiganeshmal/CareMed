@@ -31,6 +31,7 @@ const HeroSection = () => {
           <button onClick={() => naviagte('/products')} className="mt-6 bg-[#0a8ddf] hover:bg-[#25a9f1] text-white font-semibold px-8 py-3 rounded-md shadow-lg transition duration-300">
             Explore Products
           </button>
+          
 
         </div>
 

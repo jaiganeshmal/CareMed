@@ -18,8 +18,8 @@ const About = () => {
       <AboutHero />
       <MedicalSection />
       <PatientTestimonials />
-      <MedicalTeam />
-      <HealthPlanCTA />
+      {/* <MedicalTeam /> */}
+      {/* <HealthPlanCTA /> */}
     </>
   )
 }

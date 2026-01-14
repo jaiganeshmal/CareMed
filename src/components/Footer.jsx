@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#0a8ddf] text-white pt-10 pb-8 relative">
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-        
+
         {/* 🔹 Column 1 - Logo & About */}
         <div>
           <img
@@ -23,25 +23,29 @@ const Footer = () => {
           {/* Social Media */}
           <div className="flex space-x-4">
             <a
-              href="#"
+              href=" https://www.facebook.com/profile.php?id=61579715670318"
+              target="_blank"
               className="w-9 h-9 rounded-full flex items-center justify-center bg-white/10 hover:bg-[#3BB8FD] transition-all duration-300"
             >
               <FaFacebookF />
             </a>
             <a
               href="#"
+              target="_blank"
               className="w-9 h-9 rounded-full flex items-center justify-center bg-white/10 hover:bg-[#3BB8FD] transition-all duration-300"
             >
               <FaTwitter />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/posts/anwarsons_airwaymanagement-trachealtubes-anesthesiacare-activity-7415350531289833472-GUWL?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD0uTjMBeuSLDjQOUI9ArJN-3Jct1wepf7c"
+              target="_blank"
               className="w-9 h-9 rounded-full flex items-center justify-center bg-white/10 hover:bg-[#3BB8FD] transition-all duration-300"
             >
               <FaLinkedinIn />
             </a>
             <a
-              href="#"
+              href=" https://www.instagram.com/anwarsons_medical/"
+              target="_blank"
               className="w-9 h-9 rounded-full flex items-center justify-center bg-white/10 hover:bg-[#3BB8FD] transition-all duration-300"
             >
               <FaInstagram />
@@ -52,8 +56,7 @@ const Footer = () => {
         {/* 🔹 Column 2 - Quick Links */}
         <div>
           <h3 className="text-xl font-semibold mb-4 relative inline-block">
-            <span>Quick Links</span>
-            <div className="absolute top-0 left-0 w-1/2 h-1 bg-[#25a9f1] -translate-y-3"></div>
+            Quick Links
           </h3>
           <ul className="space-y-2">
             <li>
@@ -92,8 +95,7 @@ const Footer = () => {
         {/* 🔹 Column 3 - Services */}
         <div>
           <h3 className="text-xl font-semibold mb-4 relative inline-block">
-            <span>Our Services</span>
-            <div className="absolute top-0 left-0 w-1/2 h-1 bg-[#25a9f1] -translate-y-3"></div>
+            Our Services
           </h3>
           <ul className="space-y-2">
             <li>
@@ -127,8 +129,7 @@ const Footer = () => {
         {/* 🔹 Column 4 - Contact Info */}
         <div>
           <h3 className="text-xl font-semibold mb-4 relative inline-block">
-            <span>Contact Us</span>
-            <div className="absolute top-0 left-0 w-1/2 h-1 bg-[#25a9f1] -translate-y-3"></div>
+            Contact Us
           </h3>
           <ul className="space-y-3">
             <li>📍 Apartment 10, Safari Villas 2 Commercial Complex, Bahria Town Phase 7, Rawalpindi</li>

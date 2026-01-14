@@ -121,9 +121,9 @@ const MedicalSection = () => {
       </div>
 
       {/* RIGHT SIDE */}
-      <div className="lg:w-1/3 space-y-3">
+      <div className="lg:w-1/3 space-y-6">
         {/* Working Hours */}
-        <div className="bg-[#0a8ddf] text-white p-6 rounded-xl shadow-lg">
+        {/* <div className="bg-[#0a8ddf] text-white p-6 rounded-xl shadow-lg">
           <div className="flex items-center mb-3 text-lg">
             <FaClock className="mr-2 text-gray-600 text-xl" />
             <h3 className="font-semibold">Working Hours</h3>
@@ -142,7 +142,7 @@ const MedicalSection = () => {
               <span className="float-right text-white font-medium">9.30 – 15.00</span>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         {/* contact  */}
         <div className="bg-[#0a8ddf] text-white p-6 rounded-xl shadow-lg">

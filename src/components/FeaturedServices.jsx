@@ -53,7 +53,7 @@ const FeaturedServices = () => {
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Heading */}
-        <div className="mb-14 max-w-3xl">
+        <div className="mb-6 max-w-3xl">
           <h2 className="text-4xl md:text-5xl font-extrabold text-[#0a8ddf]">
             Our Product Portfolio
           </h2>

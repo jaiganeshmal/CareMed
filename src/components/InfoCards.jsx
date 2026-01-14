@@ -22,6 +22,7 @@ const cardsData = [
     desc: "For urgent care or emergencies, contact our 24/7 helpline.",
     icon: <FaPhoneAlt className="text-4xl text-white mb-3" />,
     bgColor: "bg-[#0a8ddf]", // ✅ Deep Blue
+    // bgColor: "bg-[#3BB8FD]", // ✅ Deep Blue
     // bgColor: "bg-[#21297F]", // ✅ Deep Blue
     // bgColor: "bg-[#1565C0]", // ✅ Deep Blue
   },

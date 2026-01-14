@@ -5,10 +5,21 @@ import ProductCards from "../components/ProductCards";
 import ProductsHero from "../components/ProductsHero";
 import ProductAssurance from "../components/ProductAssurance";
 import ClientsServed from "../components/ClientsServed";
+import { useLocation } from "react-router-dom";
 
 const Products = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [selectedSubCategory, setSelectedSubCategory] = useState(null);
+  const location = useLocation();
+
+ useEffect(() => {
+  if (location.state?.category) {
+    setSelectedCategory(location.state.category);
+  }
+  if (location.state?.subcategory) {
+    setSelectedSubCategory(location.state.subcategory);
+  }
+}, [location.state]);
 
   const categories = [
     {
@@ -286,43 +297,44 @@ const Products = () => {
     })
   }, [])
 
- return (
-  <div className="overflow-hidden">
-    {/* 1️⃣ HERO */}
-    <ProductsHero />
+  return (
+    <div className="overflow-hidden">
+      {/* 1️⃣ HERO */}
+      <ProductsHero />
 
-    {/* 2️⃣ CATEGORIES */}
-    {!selectedCategory && (
-      <ProductCategories
-        categories={categories}
-        onSelect={setSelectedCategory}
-      />
-    )}
+      {/* 6️⃣ CLIENTS */}
+      <ClientsServed />
 
-    {/* 3️⃣ SUBCATEGORIES */}
-    {selectedCategory && !selectedSubCategory && (
-      <ProductSubCategories
-        category={selectedCategory}
-        onBack={() => setSelectedCategory(null)}
-        onSelectSub={setSelectedSubCategory}
-      />
-    )}
+      {/* 2️⃣ CATEGORIES */}
+      {!selectedCategory && (
+        <ProductCategories
+          categories={categories}
+          onSelect={setSelectedCategory}
+        />
+      )}
 
-    {/* 4️⃣ PRODUCTS */}
-    {selectedSubCategory && (
-      <ProductCards
-        subcategory={selectedSubCategory}
-        onBack={() => setSelectedSubCategory(null)}
-      />
-    )}
+      {/* 3️⃣ SUBCATEGORIES */}
+      {selectedCategory && !selectedSubCategory && (
+        <ProductSubCategories
+          category={selectedCategory}
+          onBack={() => setSelectedCategory(null)}
+          onSelectSub={setSelectedSubCategory}
+        />
+      )}
 
-    {/* 5️⃣ ASSURANCE */}
-    <ProductAssurance />
+      {/* 4️⃣ PRODUCTS */}
+      {selectedSubCategory && (
+        <ProductCards
+          subcategory={selectedSubCategory}
+          onBack={() => setSelectedSubCategory(null)}
+        />
+      )}
 
-    {/* 6️⃣ CLIENTS */}
-    <ClientsServed />
-  </div>
-);
+      {/* 5️⃣ ASSURANCE */}
+      <ProductAssurance />
+
+    </div>
+  );
 
 };
 
